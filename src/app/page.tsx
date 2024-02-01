@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Gallery } from './components/gallery'
+import  Gallery  from './gallery/page'
 
 export default function Home() {
   return <Gallery />
