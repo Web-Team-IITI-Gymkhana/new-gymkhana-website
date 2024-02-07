@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
+=======
+
+:root {
+    font-size: 18px;
+}
+
+@media (min-width:640px) {
+    :root {
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px) {
+    :root {
+        font-size: 18px;
+    }
+}
+@media (min-width:1280px) {
+    :root {
+        font-size: 20px;
+    }
+}
+>>>>>>> 0267a0a04f0d654ee9a4234823d205c90bde2816
