@@ -1,5 +1,5 @@
 import { Fullscreen } from "@mui/icons-material";
-import {Button } from "@nextui-org/react";
+// import {Button } from "@nextui-org/react";
 import Image from "next/image";
 import Hero from "./clubs/hero";
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
         <span><p className="lg:inline text-7xl 2xl:text-8xl min-[1800px]:text-9xl font-extrabold text-Gold">Student's</p>
         <p className="lg:inline text-7xl 2xl:text-8xl min-[1800px]:text-9xl lg:ml-6 font-extrabold text-white">Gymkhana</p></span><br></br>
         <p className="text-6xl font-bold text-white">IIT Indore</p>
-        <Button className="w-36 bg-Gold h-12 mt-16 text-md bg-opacity-90" radius="full">Know more</Button>
+        {/* <Button className="w-36 bg-Gold h-12 mt-16 text-md bg-opacity-90" radius="full">Know more</Button> */}
       </div>
       <div className="h-96 bg-slate-100">Random Content...</div>
       <Image
