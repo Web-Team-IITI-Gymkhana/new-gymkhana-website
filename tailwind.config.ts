@@ -56,8 +56,11 @@ module.exports = {
         },
       },
       
-    },
-  },
+    }
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
+=======
   
   darkMode: "class",
   plugins: [

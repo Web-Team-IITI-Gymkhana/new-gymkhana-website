@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-scrollbar-hide": "^1.1.7"
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@fontsource/poppins": "^5.0.8",

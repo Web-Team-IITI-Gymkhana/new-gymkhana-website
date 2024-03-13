@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import  Gallery  from './gallery/page'
+
+export default function Home() {
+  return <Gallery />
 import { Fullscreen } from "@mui/icons-material";
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
