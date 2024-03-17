@@ -114,22 +114,25 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px]"
+        className="bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>
-          <motion.h1
-            className="text-white mt-10 xs:text-xs
-             text-3xl w-[28vw] h-[13.5vh] font-bold xs:text-base uppercase p-5 rounded-md mx-auto text-center bg-gradient-to-r from-sky-500 to-indigo-500 md:text-base sm:text-sm xs:text-sm md:h-[11vh] lg:h-[13vh]"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              delay: 0,
-              duration: 0.8,
-            }}
-            id="techClub"
-          >
-            Technical Clubs
-          </motion.h1>
+          <div className="flex items-center justify-center">
+            <motion.h1
+              className="text-white mt-10 xs:text-xs
+               xs:text-base uppercase p-4 rounded-md text-center bg-gradient-to-r text-xl w-[27vw] h-[10.25vh] from-indigo-600 to-sky-400 font-poppins"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 0.2,
+                duration: 1,
+              }}
+              id="techClub"
+            >
+              Technical Clubs 
+            </motion.h1>
+          </div>
         </ScrollReveal>
 
         <div
@@ -186,7 +189,7 @@ export default function Hero() {
                       {item.title}
                     </h5>
                   </div>
-                  <div className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer border-b-5 border-blue-500 ">
+                  <div className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointerS">
                     <motion.button
                       className="px-4 py-2 scale-1.1 text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-lg cursor-pointer md:block lg:block xl:block scroll-smooth sm:hidden"
                       whileTap={{ filter: "brightness(1.2)" }}
