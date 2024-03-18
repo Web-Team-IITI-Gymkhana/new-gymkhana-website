@@ -1,8 +1,8 @@
 // import { Fullscreen } from "@mui/icons-material";
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
-import Hero from "./pages/clubHeads/hero";
-import Heroo from "./pages/clubs/hero";
+// import Hero from "./pages/clubHeads/page";
+// import Heroo from "./pages/clubs/page";
 export default function Home() {
   return (
     <>
@@ -38,8 +38,8 @@ export default function Home() {
           objectFit="contain"
           alt="Random plus"
         />
-        <Heroo/>
-        <Hero/>
+        {/* <Heroo/>
+        <Hero/> */}
     </>
   );
 }

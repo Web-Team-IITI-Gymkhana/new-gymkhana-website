@@ -14,7 +14,7 @@ function NavbarComponent() {
   return (
     <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
-        <Link href="/pages/clubHeads/">
+        <Link href="/pages/clubs">
           <Button className="text-base text-white bg-opacity-0">CLUBS</Button>
         </Link>
         <Link href="/">
