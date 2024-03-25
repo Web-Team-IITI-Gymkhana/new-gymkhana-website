@@ -56,14 +56,10 @@ module.exports = {
         },
       },
       
-    }
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ],
-=======
-  
+    },
   darkMode: "class",
   plugins: [
+    require('tailwind-scrollbar-hide'),
     require('tailwindcss-bg-patterns'),
     nextui({
     prefix: "nextui", // prefix for themes variables
@@ -84,4 +80,4 @@ module.exports = {
     },
   })],
 }
-
+}

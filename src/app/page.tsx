@@ -1,12 +1,9 @@
-import Image from 'next/image'
-import  Gallery  from './gallery/page'
-
-export default function Home() {
-  return <Gallery />
 import { Fullscreen } from "@mui/icons-material";
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
 import Hero from "./clubs/hero";
+import Message from "./presidentmessage/message";
+import Council from "./council/council";
 export default function Home() {
   return (
     <>
@@ -42,7 +39,10 @@ export default function Home() {
           objectFit="contain"
           alt="Random plus"
         />
+        <Message/>
+        <Council/>
         <Hero/>
+        
     </>
   );
 }
