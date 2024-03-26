@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link";
 import {
   Button,
@@ -12,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 function NavbarComponent() {
   return (
-    <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky top-0">
+    <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky top-0 z-10 ">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">CLUBS</Button>
@@ -20,8 +19,8 @@ function NavbarComponent() {
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">EVENTS</Button>
         </Link>
-        <Link href="/">
-          <Button className="text-base text-white bg-opacity-0">GALLERY</Button>
+        <Link href="/gallery">
+          <Button className="text-base text-white bg-opacity">GALLERY</Button>
         </Link>
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">ABOUT</Button>
