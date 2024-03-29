@@ -1,8 +1,10 @@
 // import { Fullscreen } from "@mui/icons-material";
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
-// import Hero from "./pages/clubHeads/page";
 // import Heroo from "./pages/clubs/page";
+=======
+import Message from "./presidentmessage/message";
+import Council from "./council/council";
 export default function Home() {
   return (
     <>
@@ -40,6 +42,8 @@ export default function Home() {
         />
         {/* <Heroo/>
         <Hero/> */}
+        <Message/>
+        <Council/>
     </>
   );
 }

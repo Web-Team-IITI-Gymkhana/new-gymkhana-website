@@ -15,12 +15,14 @@
     "@mui/icons-material": "^5.15.6",
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^11.0.3",
-    "next": "14.0.4",
+    "next": "^14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
-    "@types/node": "20.11.7",
+    "@types/json5": "^2.2.0",
+    "@types/node": "^20.11.7",
     "@types/react": "18.2.48",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",

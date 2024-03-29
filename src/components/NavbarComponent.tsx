@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link";
 import {
   Button,
@@ -20,8 +19,8 @@ function NavbarComponent() {
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">EVENTS</Button>
         </Link>
-        <Link href="/">
-          <Button className="text-base text-white bg-opacity-0">GALLERY</Button>
+        <Link href="/gallery">
+          <Button className="text-base text-white bg-opacity">GALLERY</Button>
         </Link>
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">ABOUT</Button>
