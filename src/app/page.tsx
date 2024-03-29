@@ -1,13 +1,23 @@
+<<<<<<< HEAD
+=======
+import { Fullscreen } from "@mui/icons-material";
+// import {Button } from "@nextui-org/react";
+>>>>>>> 9cd508719fb50a5d952c06812aa0c1265d5e77f0
 import Image from "next/image";
 import Gallery from "./gallery/page";
 import { Fullscreen } from "@mui/icons-material";
 import Hero from "./clubs/hero";
+<<<<<<< HEAD
 
 // export default function Home() {
 //   return <Gallery />
 
 // import {Button } from "@nextui-org/react";
 
+=======
+import Message from "./presidentmessage/message";
+import Council from "./council/council";
+>>>>>>> 9cd508719fb50a5d952c06812aa0c1265d5e77f0
 export default function Home() {
   return (
     <>
@@ -43,6 +53,7 @@ export default function Home() {
       </div>
       <div className="h-96 bg-slate-100">Random Content...</div>
       <Image
+<<<<<<< HEAD
         className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
         src="/blue_dots.svg"
         width={400}
@@ -51,6 +62,19 @@ export default function Home() {
         alt="Random plus"
       />
       <Hero />
+=======
+          className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
+          src="/blue_dots.svg"
+          width={400}
+          height={400}
+          objectFit="contain"
+          alt="Random plus"
+        />
+        <Message/>
+        <Council/>
+        <Hero/>
+        
+>>>>>>> 9cd508719fb50a5d952c06812aa0c1265d5e77f0
     </>
   );
 }

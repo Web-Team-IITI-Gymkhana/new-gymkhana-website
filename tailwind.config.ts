@@ -50,6 +50,7 @@ module.exports = {
           },
         },
       },
+<<<<<<< HEAD
     },
 
     darkMode: "class",
@@ -77,3 +78,31 @@ module.exports = {
     ],
   },
 };
+=======
+      
+    },
+  darkMode: "class",
+  plugins: [
+    require('tailwind-scrollbar-hide'),
+    require('tailwindcss-bg-patterns'),
+    nextui({
+    prefix: "nextui", // prefix for themes variables
+    addCommonColors: false, // override common colors (e.g. "blue", "green", "pink").
+    // defaultTheme: "dark", // default theme from the themes object
+    // defaultExtendTheme: "dark", // default theme to extend on custom themes
+    layout: {}, // common layout tokens (applied to all themes)
+    themes: {
+      light: {
+        layout: {}, // light theme layout tokens
+        colors: {}, // light theme colors
+      },
+      dark: {
+        layout: {}, // dark theme layout tokens
+        colors: {}, // dark theme colors
+      },
+      // ... custom themes
+    },
+  })],
+}
+}
+>>>>>>> 9cd508719fb50a5d952c06812aa0c1265d5e77f0

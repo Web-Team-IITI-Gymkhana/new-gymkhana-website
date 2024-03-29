@@ -15,15 +15,20 @@
     "@mui/material": "^5.15.13",
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^11.0.3",
+<<<<<<< HEAD
     "next": "14.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.5.2",
+=======
+    "next": "^14.0.4",
+>>>>>>> 9cd508719fb50a5d952c06812aa0c1265d5e77f0
     "react": "^18",
     "react-dom": "^18",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
-    "@types/node": "20.11.7",
+    "@types/json5": "^2.2.0",
+    "@types/node": "^20.11.7",
     "@types/react": "18.2.48",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",

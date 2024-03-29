@@ -1,85 +1,224 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import  Styles  from './gallery.module.css'
-import Mainbg from '../../../public/assests/mainbg.jpg'
-import fluxus from '../../../public/assests/fluxus.jpg'
-import republic from '../../../public/assests/republic.jpg'
-import convocation from '../../../public/assests/convocation.jpg'
-import esummit from '../../../public/assests/esummit.jpg'
-import tvsm from '../../../public/assests/tvsm.jpg'
-import mun from '../../../public/assests/mun.jpg'
-const Gallery = () => {
-  return (
-    <div className='overflow-hidden'>
-        <Image 
-            alt='mainbg'
-            src={Mainbg}
-            quality={100}
-           fill
-            sizes='100vw'
-            style={{
-                objectFit:'cover',
-                zIndex:'-10',
-                opacity:'1', 
-            }}
-            />
-            
-        <button className={Styles.button}><span>Home</span><i></i></button>
-        <div className='flex justify-center mt-3 text-3xl z-10 text-black'>
-            <h1 className="z-1 text-white first-letter:text-orange-600 ">GALLERY</h1>
-        </div>
-        <div className='flex justify-evenly flex-wrap xl:mx-10 lg:mx-8 md:mx-6 sm:mx-4 mx-2 bg-[rgb(150,150,150,0.2)] w-[95vw] h-[80vh] overflow-auto scrollbar-hide p-4'>
-           <Link href='../fluxus'> <div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68,0)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={fluxus} alt='event image' objectFit='cover'quality={100} sizes='100%' className=' w-[100%] h-[100%] hover:h-[50%] transition duration-300 '/>
-                <div className='event_card_description bg-[rgba(84,77,180)] w-[100%] h-[100%] hover:h-[50%] transition duration-300'>
-                <span className='event_card_title mx-[7vw] '><p className='text-lg text-center'>FLUXUS</p></span>
-                <span className='event_card_content p-[1rem]'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>Fluxus is the annual Techno-Cultural Extravaganza organized by The Indian Institute of Technology, Indore</p></span>
-                </div>
-            </div>
-            </Link>
-            <Link href='../republic'><div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={republic} objectFit='cover' quality={100} sizes='100%' alt='event image' className=' w-[100%] h-[100%] hover:h-[50%] '/>
-                <div className='event_card_description bg-[rgb(196,52,52)] w-[100%] h-[100%] hover:h-[50%]'>
-                <span className='event_card_title min-[400px]:mx-[6rem] min-[200px]:ml-[3rem] '>REPUBLIC DAY</span><br/>
-                <span className='event_card_content'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>Red, White, and Green: IIT Indore Commemorates Republic Day with Zeal - Students, faculty, and staff unite in a vibrant display of national pride, showcasing cultural diversity and innovation.</p></span>
-                </div>
-            </div>
-            </Link>
-            <Link href='../convocation'><div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={convocation} objectFit='cover' quality={100} sizes='100%' alt='event image' className=' w-[100%] h-[100%] hover:h-[50%] '/>
-                <div className='event_card_description bg-[rgb(53,46,178)] w-[100%] h-[100%] hover:h-[50%]'>
-                <span className='event_card_title mx-[7vw] '>CONVOCATION</span><br/>
-                <span className='event_card_content'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>IIT Indore Convocation: A Triumph of Knowledge and Achievement - Graduates and scholars gather to celebrate academic milestones, embodying excellence and the spirit of innovation.</p></span>
-                </div>
-            </div>
-            </Link>
-            <Link href='../esummit'><div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={esummit} objectFit='cover' quality={100} sizes='100%' alt='event image' className=' w-[100%] h-[100%] hover:h-[50%] '/>
-                <div className='event_card_description bg-[rgb(174,166,49)] w-[100%] h-[100%] hover:h-[50%]'>
-                <span className='event_card_title mx-[7vw] '>E-SUMMIT</span><br/>
-                <span className='event_card_content'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>IIT Indore E-Summit: Igniting Entrepreneurial Spirit - A platform fostering innovation and collaboration, empowering aspiring entrepreneurs with knowledge, networking, and opportunities for growth.</p></span>
-                </div>
-            </div>
-            </Link>
-            <Link href='../tvsm'><div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={tvsm} objectFit='cover' quality={100} sizes='100%' alt='event image' className=' w-[100%] h-[100%] hover:h-[50%] '/>
-                <div className='event_card_description bg-[rgb(200,135,135)] w-[100%] h-[100%] hover:h-[50%]'>
-                <span className='event_card_title mx-[7vw] '>TVSM</span><br/>
-                <span className='event_card_content'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>IIT Indore and IIM Indore TVSM: A Cultural Clash of Titans - Annual festivities ignite campus spirit, fostering camaraderie and friendly competition while celebrating diversity through music, dance, and art.</p></span>
-                </div>
-            </div>
-            </Link> 
-            <Link href='../mun'><div className='event_card text-white m-4 w-[325px] h-[50vh] bg-[rgb(241,68,68)] my-4 overflow-hidden rounded-3xl hover:scale-105 transition duration-300'>
-                <Image src={mun} objectFit='cover' quality={100} sizes='100%' alt='event image' className=' w-[100%] h-[100%] hover:h-[50%] '/>
-                <div className='event_card_description bg-[rgb(110,91,91)] w-[100%] h-[100%] hover:h-[50%]'>
-                <span className='event_card_title mx-[7vw] '>MUN</span><br/>
-                <span className='event_card_content'><p className='text-base p-[0.5rem] max-[400px]:text-sm'>IIT Indore MUN: Diplomatic Discourse Unveiled - Where global issues meet scholarly debate, fostering critical thinking and diplomatic skills among students, shaping future leaders of international relations.</p></span>
-                </div>
-            </div>
-            </Link>
-        </div>
-    </div>    
-  )
+"use client"
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import ModalComponent from "../../components/modal";
+
+interface EventObject {
+  name: string;
+  src: string;
+  alt: string;
+  gallery: string[]; // Array of image sources for the event gallery
 }
-export default Gallery;
+
+export default function ImageGallery() {
+  const [selectedEvent, setSelectedEvent] = useState<EventObject | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
+  const [events, setEvents] = useState<EventObject[]>([]);
+
+  useEffect(() => {
+    // Initialize event data
+    setEvents([
+      {
+        name: "Fluxus",
+        src: "/fluxus.jpg",
+        alt: "Fluxus Event",
+        gallery: [ // Array of Fluxus event images
+        "/assests/fluxus/fluxus1.jpg",
+        "/assests/fluxus/fluxus2.jpg",
+        "/assests/fluxus/fluxus3.jpg",
+        "/assests/fluxus/fluxus4.jpg",
+        "/assests/fluxus/fluxus5.jpg",
+        "/assests/fluxus/fluxus6.jpg",
+        "/assests/fluxus/fluxus7.jpg",
+        "/assests/fluxus/fluxus8.jpg",
+        "/assests/fluxus/fluxus9.jpg",
+        "/assests/fluxus/fluxus10.jpg",
+        "/assests/fluxus/fluxus11.jpg",
+      
+          // Add more Fluxus event images here...
+        ],
+      },
+
+      {
+        name: "Republic Day",
+        src: "/assests/republic.jpg",
+        alt: "Republic Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/republic/republic1.jpg",
+          "/assests/republic/republic2.jpg",
+          "/assests/republic/republic3.jpg",
+          "/assests/republic/republic4.jpg",
+          "/assests/republic/republic5.jpg",
+          "/assests/republic/republic6.jpg",
+          "/assests/republic/republic7.jpg",
+          "/assests/republic/republic8.jpg",
+          "/assests/republic/republic9.jpg",
+          "/assests/republic/republic10.jpg",
+          "/assests/republic/republic11.jpg",
+          "/assests/republic/republic12.jpg",
+          "/assests/republic/republic13.jpg",
+          "/assests/republic/republic14.jpg",
+          "/assests/republic/republic15.jpg",
+
+          // Add more Fluxus event images here...
+        ],
+      },
+
+      {
+        name: "Convocation",
+        src: "/assests/convocation.jpg",
+        alt: "convocation",
+        gallery: [ // Array of Fluxus event images
+          "/assests/convocation/convocation1.jpg",
+          "/assests/convocation/convocation2.jpg",
+          "/assests/convocation/convocation3.jpg",
+          "/assests/convocation/convocation4.jpg",
+          "/assests/convocation/convocation5.jpg",
+          "/assests/convocation/convocation6.jpg",
+          "/assests/convocation/convocation7.jpg",
+          "/assests/convocation/convocation8.jpg",
+          "/assests/convocation/convocation9.jpg",
+          "/assests/convocation/convocation10.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+
+      {
+        name: "E-summit",
+        src: "/assests/esummit.jpg",
+        alt: "esummit Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/esummit/e1.jpg",
+          "/assests/esummit/e2.jpg",
+          "/assests/esummit/e3.jpg",
+          "/assests/esummit/e4.jpg",
+          "/assests/esummit/e5.jpg",
+          "/assests/esummit/e6.jpg",
+          "/assests/esummit/e7.jpg",
+          "/assests/esummit/e8.jpg",
+          "/assests/esummit/e9.jpg",
+          "/assests/esummit/e10.jpg",
+          "/assests/esummit/e11.jpg",
+          "/assests/esummit/e12.jpg",
+          "/assests/esummit/e13.jpg",
+          "/assests/esummit/e14.jpg",
+          "/assests/esummit/e15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+
+      {
+        name: "IITI MUN",
+        src: "/assests/mun.jpg",
+        alt: "MUN Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/mun/mun1.jpg",
+          "/assests/mun/mun2.jpg",
+          "/assests/mun/mun3.jpg",
+          "/assests/mun/mun4.jpg",
+          "/assests/mun/mun5.jpg",
+          "/assests/mun/mun6.jpg",
+          "/assests/mun/mun7.jpg",
+          "/assests/mun/mun8.jpg",
+          "/assests/mun/mun9.jpg",
+          "/assests/mun/mun10.jpg",
+          "/assests/mun/mun11.jpg",
+        
+          // Add more Fluxus event images here...
+        ],
+      },
+
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      // Add other event objects here...
+    ]);
+  }, []);
+
+  const handleEventClick = (index: number) => {
+    // Handle event click to open lightbox with corresponding event gallery
+    setSelectedEvent(events[index]);
+    setSelectedImageIndex(0); // Reset selected image index to the first image
+  };
+
+  const handleCloseModal = () => {
+    setSelectedEvent(null);
+    setSelectedImageIndex(0);
+  };
+
+  const handleNextImage = () => {
+    // Handle next image click in the lightbox
+    setSelectedImageIndex((prevIndex) =>
+      (prevIndex + 1) % selectedEvent!.gallery.length
+    );
+  };
+
+  const handlePrevImage = () => {
+    // Handle previous image click in the lightbox
+    setSelectedImageIndex((prevIndex) =>
+      prevIndex === 0
+        ? selectedEvent!.gallery.length - 1
+        : prevIndex - 1
+    );
+  };
+
+  return (
+    <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')]">
+      <div className="h-[8vh] text-center pt-2.5 text-white first-letter:text-orange-600 font-black text-3xl max-[350px]:text-xl">
+        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 ">
+          GALLERY
+        </span>
+      </div>
+      <div className="mainbody">
+        <div className="flex flex-wrap justify-center w-4/5 mx-auto overflow-y-auto mt-1">
+          {events.map((event, index) => (
+            <div
+              key={index}
+              className="w-1/3 p-1.5 pb-2"
+              style={{ maxWidth: "400px" }}
+            >
+              <Image
+                src={event.src}
+                alt={event.alt}
+                width={320}
+                height={300}
+                priority
+                className="border-4 border-solid border-white hover:border-yellow-500"
+                onClick={() => handleEventClick(index)}
+              />
+            </div>
+          ))}
+          {selectedEvent && (
+            <ModalComponent
+              event={selectedEvent}
+              imageIndex={selectedImageIndex}
+              onClose={handleCloseModal}
+              onNextImage={handleNextImage}
+              onPrevImage={handlePrevImage}
+            />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
