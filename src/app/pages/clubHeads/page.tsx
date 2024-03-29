@@ -270,7 +270,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[50vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
       >
         <ScrollReveal>
           <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
@@ -278,8 +278,7 @@ export default function Hero() {
 
           <div className="flex items-center justify-center">
             <motion.h1
-              className="text-white mt-20 xs:text-xs
-               xs:text-base uppercase p-4 rounded-md text-center bg-gradient-to-r text-xl w-[27vw] h-[10.25vh] from-indigo-600 to-sky-400 font-poppins"
+              className="text-white font-thin sm:mt-20 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r sm:text-xl sm:w-[35vw] xxs:h-[7vh] xxs:w-[60vw] sm:h-[10vh] from-indigo-600 to-sky-400 p-3 font-poppins"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -295,11 +294,30 @@ export default function Hero() {
 
         <div
           id="council"
-          className="flex mt-30 flex-wrap place-content-center gap-2  pb-[10vh]"
+          className="flex mt-30 flex-wrap place-content-center gap-2  "
         >
           {clubArr.map((item, index) => (
             <div
-              className={`w-[50vh] h-[25vw]  sm:w-[55vh] md:w-[80vh] sm:h-[40vw] md:h-[44vw] lg:w-[50vh] lg:h-[30vw] z-10 bg-transparent border-black pt-20 xs:h-[80vw] scroll-smooth`}
+              className={`
+              sm:w-[25vh] sm:h-[40vw] 
+              md:w-[35vh] md:h-[40vw] 
+              lg:w-[50vh] lg:h-[30vw] 
+              lg:mx-[0vh]
+              lg:my-[2vh]
+              md:mx-[2vw]
+              md:my-[1vw]
+              z-10 bg-transparent border-black pt-20 
+              xs:h-[60vw]
+              xs:w-[30vh]
+              xs:m-3
+              xs:mb-8
+              xxs:m-4
+              xxs:h-[40vw]
+              xxs:w-[25vw]
+              xxs:mb-[20vw]
+              sm:mb-6 
+              scroll-smooth              
+              `}
               key={index}
             >
               <ScrollReveal>
@@ -332,10 +350,10 @@ export default function Hero() {
                 >
                   <motion.div
                     whileTap={{ scale: 0.9, filter: "brightness(0.85)" }}
-                    className="img-cont xs:w-9 lg:w-40 lg:h-40 sm:w-60 sm:h-60 md:w-45 md:h-45 md:flex-auto md:space-x-9 sm:flex-1 flex items-center justify-center lg:mb-5 sm:m-4 md:m-2 "
+                    className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40 "
                   >
                     <Image
-                      className=" lg:w-[100%] lg:h-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] border-2 border-indigo-500 md:mt-5 md:h-[90%] shadow-2xl shad"
+                      className=" lg:w-[20vw] sm:w-[20vw] xxs:h-[25vw] sm:mt-3 lg:mt-2 sm:pb-5 md:pb-0 border-2 border-indigo-500 md:mt-5 md:h-[90%] shadow-2xl"
                       src={item.img.src}
                       alt={item.head}
                       width={134}
@@ -343,17 +361,17 @@ export default function Hero() {
                       unoptimized // "unoptimized" -- very CRUCIAL
                     />
                   </motion.div>
-                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 items-center justify-center ">
-                    <h4 className="mb-1 lg:text-lg sm:text-sm md:text-md lg:font-medium text-center dark:text-white mt-1 text-white ">
-                      <span className="rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 px-2">
+                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:w-[50vw] sm:mt-1 mt-[-2vw] items-center justify-center ">
+                    <h4 className="mb-1 lg:text-lg md:text-md text-xs lg:font-medium text-center dark:text-white pt-0.5 sm:mt-1 text-white ">
+                      <span className="rounded-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 sm:px-2 ">
                         {item.head}
                       </span>
                     </h4>
                     <div>
-                      <h3 className="my-0.5 lg:text-md sm:text-sm md:text-md lg:font-small text-center text-gray-800 dark:text-white underline underline-offset-0.5">
+                      <h3 className="my-0.5 lg:text-md text-sm md:text-md lg:font-small text-center text-gray-800 dark:text-white underline underline-offset-0.5">
                         {item.post}
                       </h3>
-                      <h2 className="my-0.5 lg:text-md sm:text-sm md:text-md lg:font-small text-center text-gray-800 dark:text-white ">
+                      <h2 className={`my-0.5 lg:text-md md:text-md lg:font-small text-center ${item.club_name.length>18?'sm:text-sm text-xs px-5  ':'text-sm'} text-gray-800 dark:text-white`}>
                         {item.club_name}
                       </h2>
                     </div>
