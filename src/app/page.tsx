@@ -2,7 +2,6 @@
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
 // import Heroo from "./pages/clubs/page";
-=======
 import Message from "./presidentmessage/message";
 import Council from "./council/council";
 export default function Home() {
