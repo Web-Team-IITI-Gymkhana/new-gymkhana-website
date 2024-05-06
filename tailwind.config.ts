@@ -10,8 +10,14 @@ module.exports = {
   theme: {
     
     extend: {
+      screens:{
+        'xs':'500px',
+        'xxs':'150px',
+      },
 
-      
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
 
       colors:{
         prb:'#3B82F6',

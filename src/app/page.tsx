@@ -1,7 +1,7 @@
-import { Fullscreen } from "@mui/icons-material";
+// import { Fullscreen } from "@mui/icons-material";
 // import {Button } from "@nextui-org/react";
 import Image from "next/image";
-import Hero from "./clubs/hero";
+// import Heroo from "./pages/clubs/page";
 import Message from "./presidentmessage/message";
 import Council from "./council/council";
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
         <p className="text-6xl font-bold text-white">IIT Indore</p>
         {/* <Button className="w-36 bg-Gold h-12 mt-16 text-md bg-opacity-90" radius="full">Know more</Button> */}
       </div>
-      <div className="h-96 bg-slate-100">Random Content...</div>
+      {/* <div className="h-96 bg-slate-100">Random Content...</div> */}
       <Image
           className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
           src="/blue_dots.svg"
@@ -39,10 +39,10 @@ export default function Home() {
           objectFit="contain"
           alt="Random plus"
         />
+        {/* <Heroo/>
+        <Hero/> */}
         <Message/>
         <Council/>
-        <Hero/>
-        
     </>
   );
 }

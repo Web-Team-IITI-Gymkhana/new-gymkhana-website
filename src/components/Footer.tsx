@@ -23,15 +23,11 @@ function Footer() {
             <div className="mx-2 my-2 xl:my-0 lg:mx-6 xl:mx-2"><h1 className="text-xl sm:text-2xl font-bold">Contact</h1><p>studentgym@iiti.ac.in</p></div>
         </div>
       </div>
+      
       <Divider className="my-2 bg-slate-600" />
       <div className="xl:grid grid-cols-3 my-4 w-full items-center">
         <p className="xl:text-left text-center">© 2024 IITI. All rights reserved.</p>
-        <span className="invisible xl:visible justify-self-center w-64 flex flex-row gap-2 justify-between">
-            <Link href='/'><Button size='sm' className="bg-white text-base">Home</Button></Link>
-            <Link href='/'><Button size='sm' className="bg-white text-base">Clubs</Button></Link>
-            <Link href='/'><Button size='sm' className="bg-white text-base">Events</Button></Link>
-            <Link href='/'><Button size='sm' className="bg-white text-base">About</Button></Link>
-        </span>
+        
         <span className="justify-self-end flex flex-row gap-6 w-full justify-center xl:justify-end">
             <Facebook sx={{color: "#374151", fontSize:40}}/>
             <Instagram sx={{color: "#374151", fontSize:40}}/>
