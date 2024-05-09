@@ -189,19 +189,19 @@ export default function ImageGallery() {
           GALLERY
         </span>
       </div>
-      <div className="mainbody">
-        <div className="flex flex-wrap justify-center w-4/5 mx-auto overflow-y-auto mt-1">
+      <div className="mainbody w-[100vw]">
+        <div className="flex flex-wrap justify-center w-4/5 mx-auto overflow-y-auto mt-2">
           {events.map((event, index) => (
             <div
               key={index}
-              className="w-1/3 p-1.5 pb-2"
-              style={{ maxWidth: "400px" }}
+              className="w-1/3 p-2 pb-3"
+              style={{ maxWidth: "600px" }}
             >
               <Image
                 src={event.src}
                 alt={event.alt}
-                width={320}
-                height={300}
+                width={820}
+                height={800}
                 priority
                 className="border-4 border-solid border-white hover:border-yellow-500"
                 onClick={() => handleEventClick(index)}
