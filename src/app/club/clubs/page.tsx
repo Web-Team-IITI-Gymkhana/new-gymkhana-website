@@ -109,7 +109,7 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden relative h-[100vh] "
+        className="overflow-x-hidden relative h-[100vh] w-full "
       >
         <Image
           src={heroImage}
@@ -210,7 +210,7 @@ export default function Hero() {
                   </ul>
               </div>
               </div> */}
-                <div className="flex flex-col items-center pb-10">
+                <div className="flex flex-col items-center pb-10 overflow-x-hidden w-full">
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
@@ -227,7 +227,7 @@ export default function Hero() {
                     />
                     
                   </motion.div>
-                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center ">
+                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center w-full overflow-x-hidden ">
                     <h5 className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white">
                       {item.title}
                     </h5>

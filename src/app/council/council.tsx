@@ -6,12 +6,12 @@ import Cultlogo from "../../../public/cultlogo.jpg";
 import sntlogo from "../../../public/SNT.jpg"
 export default function Council(){
     return(
-        <div className="overflow-hidden flex flex-row max-[950px]:flex-col">
+        <div className="overflow-hidden flex flex-row max-[950px]:flex-col py-12">
             <div className="flex flex-col p-2 w-[40%] max-[950px]:w-[100%]">
             <div className="h-[25vh] max-[950px]:h-0"></div>
             <div className="p-2 text-center items-center overflow-hidden h-[60vh] max-[950px]:h-auto bg-white">
-            <p className="font-extrabold text-4xl mt-2">COUNCIL</p>
-            <p className="font-normal text-sm mt-6 px-4">The four Councils along with cells carry out the executive responsibilities of the Students’ Gymkhana. Each council executes affairs pertaining to an overarching purpose. The Councils comprise Clubs, Hobby Groups, and Institute Teams, which cater to specific activities.</p>
+            <p className="font-extrabold text-5xl mt-6">COUNCIL</p>
+            <p className="font-normal text-lg mt-6 px-4 text-gray-700">The four Councils along with cells carry out the executive responsibilities of the Students’ Gymkhana. Each council executes affairs pertaining to an overarching purpose. The Councils comprise Clubs, Hobby Groups, and Institute Teams, which cater to specific activities.</p>
             </div>
             <div className="h-[25vh] max-[950px]:h-0"></div>
             </div>

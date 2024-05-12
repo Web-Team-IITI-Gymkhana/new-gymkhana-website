@@ -31,17 +31,17 @@ export default function Home() {
         {/* <Button className="w-36 bg-Gold h-12 mt-16 text-md bg-opacity-90" radius="full">Know more</Button> */}
       </div>
       {/* <div className="h-96 bg-slate-100">Random Content...</div> */}
-      <Image
+      {/* <Image
           className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
           src="/blue_dots.svg"
           width={400}
           height={400}
           objectFit="contain"
           alt="Random plus"
-        />
+        /> */}
         {/* <Heroo/>
         <Hero/> */}
-        <Message/>
+        
         <Council/>
     </>
   );
