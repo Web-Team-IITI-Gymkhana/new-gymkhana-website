@@ -1,6 +1,9 @@
 import { Fullscreen } from "@mui/icons-material";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
+// import Heroo from "./pages/clubs/page";
+import Message from "./presidentmessage/message";
+import Council from "./council/council";
 export default function Home() {
   return (
     <>
@@ -64,8 +67,8 @@ export default function Home() {
       <Image
         className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
         src="/blue_dots.svg"
-        width={400}
-        height={400}
+        width={250}
+        height={250}
         objectFit="contain"
         alt="Random plus"
       />

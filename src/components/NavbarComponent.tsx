@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link";
 import {
   Button,
@@ -12,16 +11,16 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 function NavbarComponent() {
   return (
-    <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky top-0">
+    <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
-        <Link href="/">
+        <Link href="/club/clubs">
           <Button className="text-base text-white bg-opacity-0">CLUBS</Button>
         </Link>
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">EVENTS</Button>
         </Link>
-        <Link href="/">
-          <Button className="text-base text-white bg-opacity-0">GALLERY</Button>
+        <Link href="/gallery">
+          <Button className="text-base text-white bg-opacity">GALLERY</Button>
         </Link>
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">ABOUT</Button>
@@ -46,7 +45,14 @@ function NavbarComponent() {
           </DropdownMenu>
         </Dropdown>
       </span>
+      {/* <span className="invisible xl:visible justify-self-center w-64 flex flex-row gap-2 justify-between">
+            <Link href='/'><Button size='sm' className="bg-white text-base">Home</Button></Link>
+            <Link href='/'><Button size='sm' className="bg-white text-base">Clubs</Button></Link>
+            <Link href='/'><Button size='sm' className="bg-white text-base">Events</Button></Link>
+            <Link href='/'><Button size='sm' className="bg-white text-base">About</Button></Link>
+        </span> */}
     </div>
+    
   );
 }
 
