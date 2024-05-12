@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from 'next/link'
 import {Divider, Button} from "@nextui-org/react";
 import {Facebook, Instagram, LinkedIn} from '@mui/icons-material';
-import '@fontsource/poppins';
+// import '@fontsource/poppins';
 function Footer() {
   return (
-    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white">
+    <div className="flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white">
       <div className="flex flex-col xl:flex-row items-center justify-between mx-4 my-2">
         <div className="flex flex-row items-center gap-6">
           <div>
