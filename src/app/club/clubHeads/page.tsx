@@ -29,14 +29,26 @@ import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
 // import snt from "../../../../public/assests/clubHeads/photos/";
 import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.jpg";
 import aero from "../../../../public/assests/clubHeads/photos/Aeromodeling Club_.jpg";
+
+
 import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
       club_name: "Aeromodelling",
-      head: "Soham Mondal",
+      head: "Mrunal Nandpure",
       post: "Head",
+      img: aero,
+      club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
+      head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
+      head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
+      website: "",
+    },
+    {
+      club_name: "Aeromodelling",
+      head: "Hrishikesh Jawale",
+      post: "Co-Head",
       img: aero,
       club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
       head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
