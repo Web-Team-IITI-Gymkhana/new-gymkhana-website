@@ -25,7 +25,7 @@ function NavbarComponent() {
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">ABOUT</Button>
         </Link>
-        <Link href="/">
+        <Link href="/faq">
           <Button className="text-base text-white bg-opacity-0">FAQs</Button>
         </Link>
       </span>

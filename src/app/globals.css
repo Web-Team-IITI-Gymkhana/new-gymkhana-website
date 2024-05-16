@@ -3,14 +3,3 @@
 @tailwind utilities;
 
 
-@media (min-width:1024px) {
-    :root {
-        font-size: 18px;
-    }
-}
-@media (min-width:1280px) {
-    :root {
-        font-size: 20px;
-    }
-}
-

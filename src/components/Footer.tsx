@@ -5,11 +5,12 @@ import { Facebook, Instagram, LinkedIn } from "@mui/icons-material";
 import "@fontsource/poppins";
 function Footer() {
   return (
-    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white">
+    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white border-t-2 border-black bg-[url('/bg.png')]">
       <div className="flex flex-col xl:flex-row items-center justify-between my-2">
         <div className="flex flex-row items-center gap-6">
           <div>
             <Image
+            className="bg-blend-multipy"
               src="/IITI3.jpg"
               width={200}
               height={200}
@@ -20,9 +21,9 @@ function Footer() {
             Student's Gymkhana
           </div>
         </div>
-        <div className="flex flex-col xl:flex-row xl:h-24">
+        <div className="flex max-sm:flex-col flex-row xl:h-24 max-sm:items-center">
           <div className="mx-2 my-2 xl:my-0 lg:mx-6 xl:mx-12">
-            <h1 className="text-xl sm:text-2xl font-bold pl-8">Location</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-center">Location</h1>
             <div className="flex flex-row w-full ">
               <span className="inline mr-1 ">
                 <svg
@@ -45,7 +46,7 @@ function Footer() {
             </div>
           </div>
           <div className="mx-2 my-2 xl:my-0 lg:mx-6 xl:mx-2">
-            <h1 className="text-xl sm:text-2xl font-bold text-center">Contact</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-center">Contact</h1>
             <div className="flex flex-row w-full">
               <span className="inline mr-1">
               <svg
@@ -65,8 +66,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="w-full border-[1px] border-gray-300" />
-      <Divider className="my-0.5 bg-slate-600" />
+      <hr className="w-full border-[1px] border-gray-500" />
+      
       <div className="xl:grid grid-cols-3 my-4 w-full items-center">
         <p className="xl:text-left text-center col-span-2 pt-1">
           © 2024 IITI. All rights reserved.
