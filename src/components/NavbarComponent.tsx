@@ -25,14 +25,14 @@ function NavbarComponent() {
         <Link href="/">
           <Button className="text-base text-white bg-opacity-0">ABOUT</Button>
         </Link>
-        <Link href="/">
+        <Link href="/faq">
           <Button className="text-base text-white bg-opacity-0">FAQs</Button>
         </Link>
       </span>
       <span className="justify-self-end">
         <Dropdown backdrop="blur">
           <DropdownTrigger>
-            <Button className="bg-opacity-0"><MenuIcon sx={{ fontSize: 40, color:"white"}} /></Button>
+            <Button className="bg-opacity-0 pr-4"><MenuIcon sx={{ fontSize: 40, color:"white"}} /></Button>
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
             <DropdownItem><p className="text-2xl m-2">About Us</p></DropdownItem>
