@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import {
   Button,
@@ -33,15 +34,16 @@ function NavbarComponent() {
         <Dropdown backdrop="blur">
           <DropdownTrigger>
             <Button className="bg-opacity-0"><MenuIcon sx={{ fontSize: 40, color:"white"}} /></Button>
+            {/* <button>hihi</button> */}
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
-            <DropdownItem><p className="text-2xl m-2">About Us</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">FAQs</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">Our Secretaries</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">Cultural Council</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">Technology Council</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">Gallery</p></DropdownItem>
-            <DropdownItem><p className="text-2xl m-2">Contact Us</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">About Us</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">FAQs</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">Our Secretaries</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">Cultural Council</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">Technology Council</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">Gallery</p></DropdownItem>
+            <DropdownItem><p className="text-xl m-2">Contact Us</p></DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </span>
