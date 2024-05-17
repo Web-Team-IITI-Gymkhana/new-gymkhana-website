@@ -80,7 +80,7 @@ window.location.assign('https://www.iiti.ac.in/');
         <div className="w-full py-16 bg-[url(/bg3.jpg)] bg-center bg-cover">
         <iframe
           className="w-[70%] max-sm:w-[90%] aspect-video mx-auto shadow-xl border-4 border-white"
-          src="https://www.youtube-nocookie.com/embed/SdH1PKV7pr4?si=I8wU133J3A5rHtUK&amp;autoplay=1&amp;controls=1"
+          src="https://www.youtube-nocookie.com/embed/SdH1PKV7pr4?si=I8wU133J3A5rHtUK&amp;autoplay=0&amp;controls=1"
           title="YouTube video player"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
           allowFullScreen
