@@ -12,224 +12,130 @@ import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_blac
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
 import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
 
-import cae from "../../../../public/assests/clubHeads/photos/CAE.jpg";
-import dhruv from "../../../../public/assests/clubHeads/photos/dhruv.png";
-import cfa_fin from "../../../../public/assests/clubHeads/photos/cfafin.jpg";
-import cfa_overall from "../../../../public/assests/clubHeads/photos/CFA(Overall and Analytics Head).jpg";
-import concreate from "../../../../public/assests/clubHeads/photos/Concreate.jpg";
-// import electr from "../../../../public/assests/clubHeads/photos/";
-import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.jpg";
-import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpg";
-import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpeg";
-// import meta from "../../../../public/assests/clubHeads/photos/";
-import pclub_cp from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
-import pclub_dev from "../../../../public/assests/clubHeads/photos/PClub(software dev).jpg";
-import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpeg";
-// import quantum from "../../../../public/assests/clubHeads/photos/";
-import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
-import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
-// import snt from "../../../../public/assests/clubHeads/photos/";
-import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.jpg";
-import aero from "../../../../public/assests/clubHeads/photos/Aeromodeling Club_.png";
+import aaina from "../../../../public/assests/cult_clubs_heads/aaina.jpg";
+import alpha from "../../../../public/assests/cult_clubs_heads/alpha.jpg";
+import avana from "../../../../public/assests/cult_clubs_heads/avana.jpg";
+import cinephiles from "../../../../public/assests/cult_clubs_heads/cinephiles.jpg";
+import debsoc from "../../../../public/assests/cult_clubs_heads/debsoc.jpg";
+import ebsb from "../../../../public/assests/cult_clubs_heads/ebsb.jpg";
+import game from "../../../../public/assests/cult_clubs_heads/game.jpg";
+import liter from "../../../../public/assests/cult_clubs_heads/liter.jpg";
+import music from "../../../../public/assests/cult_clubs_heads/music.jpg";
+import mystic from "../../../../public/assests/cult_clubs_heads/mystic.jpg";
+import srijan from "../../../../public/assests/cult_clubs_heads/srijan.jpg";
 
-
-import test, { before } from "node:test";
+// import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
-      club_name: "Aeromodelling",
-      head: "Mrunal Nandpure",
+      club_name: "Aaina",
+      head: "Kanak Nagar",
       post: "Head",
-      img: aero,
-      club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
+      img: aaina,
+      club_insta: "https://www.instagram.com/dramaticsclubiti",
+      head_insta: "https://www.linkedin.com/in/saina-it-indore-832082273",
+      head_lin: "",
       website: "",
     },
     {
-      club_name: "Aeromodelling",
-      head: "Hrishikesh Jawale",
-      post: "Co-Head",
-      img: aero,
-      club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
-      website: "",
-    },
-    {
-      club_name: "CAE",
-      head: "Sameer Lakkad",
-      img: cae,
+      club_name: "D Alpha Crewz",
+      head: "Anand Prakash",
       post: "Head",
-      club_insta: "https://instagram.com/caeclub_iiti?igshid=NGExMmI2YTkyZg==",
-      head_insta: "https://instagram.com/jugalshah25?igshid=ZDc4ODBmNjlmNQ==",
-      head_lin: "https://www.linkedin.com/in/jugal-shah-7948b3218",
-      website: "",
-    },
-    {
-      club_name: "CFA(Overall and Analytics Dept.)",
-      head: "Prasoon Pandey",
-      post: "Head",
-      img: cfa_overall,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta: "https://instagram.com/tanisha3.3?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/tanisha-sahu-197882232/",
-      website: "",
-    },
-    {
-      club_name: "CFA(Consulting Dept.)",
-      head: "Neha Jadhav",
-      post: "Head",
-      img: testImg,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
+      img: alpha,
+      club_insta: "https://www.instagram.com/d_alpha2crew",
       head_insta: "",
-      head_lin: "linkedin.com/in/neha-sanjay-jadhav",
+      head_lin: "",
       website: "",
     },
     {
-      club_name: "CFA(Finance Dept.)",
-      head: "Shivam Sharma",
+      club_name: "Avana",
+      head: "Aditya Girge",
       post: "Head",
-      img: cfa_fin,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta: "https://instagram.com/chetanya_sharma00",
-      head_lin: "https://www.linkedin.com/in/chetanya-sharma0",
+      img: avana,
+      club_insta: "https://www.instagram.com/avana_posh=MWUSazNvbWuOXQ2",
+      head_insta: "",
+      head_lin: "https://www.linkedin.com/company/avana-ist-indore",
       website: "",
     },
     {
-      club_name: "Concreate Club",
-      head: "Harsh Sharma",
+      club_name: "Cinephiles",
+      head: "Anshul Vijaywargiya",
       post: "Head",
-      img: concreate,
+      img: cinephiles,
+      club_insta: "https://www.instagram.com/cinephiles_liti?igsh: YzB4YnF0ZDZxaWQZ",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
+      club_name: "Debsoc",
+      head: "", // Leave empty as info not provided
+      post: "Head",
+      img: debsoc,
       club_insta: "",
       head_insta: "",
       head_lin: "",
       website: "",
     },
     {
-      club_name: "Electronics Club",
-      head: "Pulkit Gupta",
+      club_name: "EBSB",
+      head: "", // Leave empty as info not provided
       post: "Head",
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
-      website: "",
-      img: elec,
-    },
-    {
-      club_name: "Cynaptics",
-      head: "Yatharth Gupta",
-      post: "Head",
-      img: cyn,
-      club_insta: "https://www.instagram.com/cynapticsclubiiti/",
-      head_insta: "https://www.instagram.com/_yatharthgupta/",
-      head_lin: "https://www.linkedin.com/in/yatharth-g/",
-      website: "https://cynaptics.vercel.app/",
-    },
-    {
-      club_name: "GDSC",
-      head: "Harsh Sinha",
-      post: "Head",
-      img: gdsc,
-      club_insta: "https://www.instagram.com/dsc_iiti/",
-      head_insta: "https://www.instagram.com/_rohit_dhanotia_/",
-      head_lin: "https://www.linkedin.com/in/rohit-dhanotia-936345192/",
-      website: "",
-    },
-    {
-      club_name: "IVDC( Overall and Hardware )",
-      head: "Arjun S Nair",
-      post: "Head",
-      club_insta: "",
-      img: ivdc,
-      head_insta: "",
-      head_lin: "",
-      website: "",
-    },
-    
-    {
-      club_name: "Metacryst",
-      head: "Dhruv Jain",
-      post: "Head",
-      img: dhruv,
-      club_insta:
-        "https://instagram.com/metacryst_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/imaakash78?igshid=MzNlNGNkZWQ4Mg==",
-      head_lin: "https://www.linkedin.com/in/aakash-sangvikar/",
-      website: "http://metacryst.iiti.ac.in/",
-    },
-    {
-      club_name: "Pclub(Cybersecurity division)",
-      head: "Purav Biyani",
-      img: pclub_cs,
-      post: "Head",
-      club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/purav_biyani/",
-      head_lin: "https://www.linkedin.com/in/purav-biyani/",
-      website: "http://progclub.iiti.ac.in/",
-    },
-    {
-      club_name: "Pclub(CP division)",
-      head: "P. V. Sekhar",
-      post: "Head",
-      img: pclub_cp,
-      club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/p_v_sekhar/",
-      head_lin: "https://www.linkedin.com/in/p-v-sekhar-bb4612239/",
-      website: "http://progclub.iiti.ac.in/",
-    },
-    {
-      club_name: "Pclub(Software development division)",
-      head: "Mihir Patel",
-      post: "Head",
-      img: pclub_dev,
-      club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/mihir2294/",
-      head_lin: "https://www.linkedin.com/in/mihir-patel-885193233/",
-      website: "http://progclub.iiti.ac.in/",
-    },
-    {
-      club_name: "Quantum Computing",
-      head: "",
-      img: testImg,
-      post: "",
+      img: ebsb,
       club_insta: "",
       head_insta: "",
       head_lin: "",
       website: "",
     },
     {
-      club_name: "Robotics",
-      head: "Bhawna Chaudhary",
+      club_name: "Gaming Club",
+      head: "Harshit Gupta",
       post: "Head",
-      img: robo,
-      club_insta: "https://instagram.com/roboticsclub_iitindore",
+      img: game,
+      club_insta: "https://tinyurl.com/mrybyp2c",
       head_insta: "",
-      head_lin: "https://www.linkedin.com/in/akshit-raizada",
+      head_lin: "https://www.linkedin.com/company/esports-and-gaming-club-iit-indore",
       website: "",
     },
     {
-      club_name: "Robotics ",
-      head: "Manvendra Tripathi",
-      post: "Co-Head",
-      img: testImg,
-      club_insta: "https://instagram.com/roboticsclub_iitindore",
+      club_name: "Literary Club",
+      head: "Chirag Sonwane", // Leave empty as info not provided
+      post: "Head",
+      img: liter,
+      club_insta: "",
       head_insta: "",
       head_lin: "",
       website: "",
     },
     {
-      club_name: "Astronomy",
-      head: "Divyam Pandey",
+      club_name: "Music Club",
+      head: "Shubham Pawar",
       post: "Head",
-      img: astro,
-      club_insta:
-        "https://instagram.com/astronomyclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta:
-        "https://instagram.com/thedarkernebula?igshid=MzNlNGNkZWQ4Mg==",
-      head_lin: "https://www.linkedin.com/in/divyam-pandey-bbb791228",
+      img: music,
+      club_insta: "https://www.instagram.com/thermusicclub_lit?iash=Z255NG5nc2NkZmQx",
+      head_insta: "",
+      head_lin: "https://www.linkedin.com/company/music-club-it-indore/",
       website: "",
+    },
+    {
+      club_name: "Mystic Hues",
+      head: "Umang Dosi",
+      post: "Head",
+      img: mystic,
+      club_insta: "https://www.instagram.com/mystichues?igsh-N2RxeWU4dmcyb3L/3",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
+      club_name: "Srijan Club",
+      head: "Raina Tathed",
+      post: "Head",
+      img: srijan,
+      club_insta: "https://www.instagram.com/sriian_indore",
+      head_insta: "",
+      head_lin: "https://www.linkedin.com/company/srijan_iit",
     },
   ];
   return (
@@ -259,7 +165,7 @@ export default function Hero() {
             damping: 10,
           }}
         >
-          <Header item={"Technical Council"} />
+          <Header item={"Cultural Clubs"} />
         </motion.div>
       </div>
 
@@ -268,12 +174,12 @@ export default function Hero() {
         className="bg-gradient-to-r pb-[50vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
       >
         <ScrollReveal>
-          <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
-          <hr className="w-[50vw] ml-[85vw] border-b-2 border-t-0 border-blue-500" />
+          {/* <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
+          <hr className="w-[50vw] ml-[85vw] border-b-2 border-t-0 border-blue-500" /> */}
 
           <div className="flex items-center justify-center">
             <motion.h1
-              className="text-white font-thin sm:mt-20 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r sm:text-xl sm:w-[35vw] xxs:h-[7vh] xxs:w-[60vw] sm:h-[10vh] from-indigo-600 to-sky-400 p-3 font-poppins"
+              className="text-white font-bold sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r xs:text-base md:text-xl md:w-[21vw] sm:h-[10.25vh] md:h-[8.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -282,14 +188,14 @@ export default function Hero() {
               }}
               id="techClub"
             >
-              Council Members
+              Club Heads
             </motion.h1>
           </div>
         </ScrollReveal>
 
         <div
           id="council"
-          className="flex mt-30 flex-wrap place-content-center gap-2  "
+          className="flex mt-30 flex-wrap place-content-center gap-0.5   "
         >
           {clubArr.map((item, index) => (
             <div
@@ -298,7 +204,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[2vh]
+              lg:my-[-3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 

@@ -15,29 +15,29 @@ function NavbarComponent() {
   return (
     <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
-        <Dropdown>
+        <Dropdown className="bg-transparent">
           <DropdownTrigger>
-            <Button variant="bordered" className="text-white">
+            <Button className="text-white bg-transparent text-base">
               CLUBS
             </Button>
           </DropdownTrigger>
           <DropdownMenu className="text-white">
-            <DropdownItem key="tech">
+            <DropdownItem key="tech" className="text-white">
               <Link href="/club/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:font-bold">
+                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
                   TECHNICAL CLUBS
                 </Button>
               </Link>
             </DropdownItem>
             <DropdownItem key="sports">
               <Link href="/club/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:font-bold">
+                <Button className="text-base text-white bg-opacity-0 hover:text-black  hover:transition-all">
                   SPORTS CLUBS
                 </Button>
               </Link>
             </DropdownItem><DropdownItem key="cult">
-              <Link href="/club/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:font-bold">
+              <Link href="/cult/clubs">
+                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
                   CULTURAL CLUBS
                 </Button>
               </Link>

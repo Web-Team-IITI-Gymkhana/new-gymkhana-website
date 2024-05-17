@@ -20,20 +20,20 @@ import concreate from "../../../../public/assests/clubHeads/photos/Concreate.jpg
 // import electr from "../../../../public/assests/clubHeads/photos/";
 import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.jpg";
 import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpg";
-import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpeg";
+import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpg";
 // import meta from "../../../../public/assests/clubHeads/photos/";
 import pclub_cp from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
 import pclub_dev from "../../../../public/assests/clubHeads/photos/PClub(software dev).jpg";
-import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpeg";
+import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpg";
 // import quantum from "../../../../public/assests/clubHeads/photos/";
 import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
 import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
 // import snt from "../../../../public/assests/clubHeads/photos/";
-import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.jpg";
-import aero from "../../../../public/assests/clubHeads/photos/Aeromodeling Club_.png";
+import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.png";
+import aero from "../../../../public/assests/clubHeads/photos/mrunal.jpeg";
 
 
-import test, { before } from "node:test";
+// import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
@@ -41,16 +41,6 @@ export default function Hero() {
       club_name: "Aeromodelling",
       head: "Mrunal Nandpure",
       post: "Head",
-      img: aero,
-      club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
-      website: "",
-    },
-    {
-      club_name: "Aeromodelling",
-      head: "Hrishikesh Jawale",
-      post: "Co-Head",
       img: aero,
       club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
       head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
@@ -268,12 +258,12 @@ export default function Hero() {
         className="bg-gradient-to-r pb-[50vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
       >
         <ScrollReveal>
-          <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
-          <hr className="w-[50vw] ml-[85vw] border-b-2 border-t-0 border-blue-500" />
+          {/* <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
+          <hr className="w-[50vw] ml-[85vw] border-b-2 border-t-0 border-blue-500" /> */}
 
           <div className="flex items-center justify-center">
             <motion.h1
-              className="text-white font-thin sm:mt-20 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r sm:text-xl sm:w-[35vw] xxs:h-[7vh] xxs:w-[60vw] sm:h-[10vh] from-indigo-600 to-sky-400 p-3 font-poppins"
+              className="text-white font-bold sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r xs:text-base md:text-xl md:w-[21vw] sm:h-[10.25vh] md:h-[8.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -282,14 +272,14 @@ export default function Hero() {
               }}
               id="techClub"
             >
-              Council Members
+              Club Heads
             </motion.h1>
           </div>
         </ScrollReveal>
 
         <div
           id="council"
-          className="flex mt-30 flex-wrap place-content-center gap-2  "
+          className="flex mt-30 flex-wrap place-content-center gap-0.5   "
         >
           {clubArr.map((item, index) => (
             <div
@@ -298,7 +288,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[2vh]
+              lg:my-[-3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 
