@@ -3,8 +3,7 @@ import { useRef } from "react";
 import { Fullscreen } from "@mui/icons-material";
 import { Button } from "@nextui-org/react";
 // import ReactPlayer from "react-player";
-import dynamic from 'next/dynamic'
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+
 import {
   Carousel,
   CarouselContent,
@@ -64,15 +63,7 @@ window.location.assign('https://www.iiti.ac.in/');
         </Button>
       </div>
       <div className="player-wrapper">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=SdH1PKV7pr4"
-          playing={true}
-          controls={false}
-          muted={true}
-          width={"100%"}
-          height={"100%"}
-          className="react-player"
-        />
+       
       </div>
       <Council/>
       <CouncilHead/>
@@ -190,22 +181,7 @@ window.location.assign('https://www.iiti.ac.in/');
         </div>
       </section>
       
-      <section className="relative w-full">
-      <div
-        className="aspect-w-16 aspect-h-9"
-      >
-        <div className="w-full py-16 bg-[url(/bg3.jpg)] bg-center bg-cover">
-        <iframe
-          className="w-[70%] max-sm:w-[90%] aspect-video mx-auto shadow-xl border-4 border-white"
-          src="https://www.youtube-nocookie.com/embed/SdH1PKV7pr4?si=I8wU133J3A5rHtUK&amp;autoplay=0&amp;controls=1"
-          title="YouTube video player"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
-          allowFullScreen
-          
-        ></iframe>
-         </div>
-      </div>
-    </section>
+      
     </>
   );
 }
