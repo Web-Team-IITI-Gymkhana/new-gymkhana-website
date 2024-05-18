@@ -109,7 +109,7 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden relative h-[100vh] w-full "
+        className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
       >
         <Image
           src={heroImage}
@@ -140,13 +140,13 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[11vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[2vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
         //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>
           <div className="flex items-center justify-center">
             <motion.h1
-              className="text-white font-thin sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r sm:text-xl sm:w-[27vw] sm:h-[10.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins"
+              className="text-white font-bold sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r xs:text-base md:text-xl md:w-[21vw] sm:h-[10.25vh] md:h-[8.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins "
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -162,7 +162,7 @@ export default function Hero() {
 
         <div
           id="council"
-          className="flex mt-[0] xs:mt-30 flex-wrap place-content-center gap-2  "
+          className="flex mt-[0] xs:mt-30 flex-wrap place-content-center gap-0.5  "
         >
           {clubArr.map((item, index) => (
             <div
@@ -171,7 +171,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[2vh]
+              lg:my-[-3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 xs:h-[40vw]
@@ -234,7 +234,7 @@ export default function Hero() {
                   </div>
                   <div className="w-50 h-12 sm:mb-10 xxs:mb-20 sm:mt-1 xxs:mt-5 flex items-center justify-center cursor-pointer">
                     <motion.button
-                      className="xs:px-4 xs:py-2 scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 
+                      className="sm:px-2 sm:py-1  sm:text-sm md:text-md md:px-4 md:py-2  scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 
                       hover:from-pink-600 rounded-lg cursor-pointer  scroll-smooth 
                       xxs:text-xs
                       xxs:py-1 xxs:px-1
