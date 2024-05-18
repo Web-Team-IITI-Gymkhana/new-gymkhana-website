@@ -3,23 +3,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/clubs/hero-new.jpg";
+import heroImage from "../../../../public/assests/sports/image (1).jpg";
 // import clubArr from "./clubData";
 import Header from "./header";
-import cae from "../../../../public/assests/clubs/logo/cae.png";
-import cfa from "../../../../public/assests/clubs/logo/CFA Club Logo.jpg";
-import concreate from "../../../../public/assests/clubs/logo/concreate logo (new).jpg";
-import electr from "../../../../public/assests/clubs/logo/Copy of electronics club (18).png";
-import cyn from "../../../../public/assests/clubs/logo/Cynaptics club 20230325_104746.jpg";
-import gdsc from "../../../../public/assests/clubs/logo/GDSC-IITI-Logo.png";
-import ivdc from "../../../../public/assests/clubs/logo/IVDC Club 20230426_231624.jpg";
-import meta from "../../../../public/assests/clubs/logo/MetaCryst Logo1.png";
-import pclub from "../../../../public/assests/clubs/logo/Pclub.png";
-import quantum from "../../../../public/assests/clubs/logo/quantum computing.jpg";
-import robo from "../../../../public/assests/clubs/logo/ROBOTICS CLUB_.jpg";
-import snt from "../../../../public/assests/clubs/logo/Science and technology council 23-24 20230515_112204 (1) (1).jpg";
-import astro from "../../../../public/assests/clubs/logo/The_Astronomy_Club.jpg";
-import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
+import ath from "../../../../public/assests/sports/ath.png";
+import bb from "../../../../public/assests/sports/bb.png";
+import cc from "../../../../public/assests/sports/cc.jpg";
+import tc from "../../../../public/assests/sports/tc.jpg";
+import vb from "../../../../public/assests/sports/vb.png";
+import tt from "../../../../public/assests/sports/tt.png";
 
 import HeadsPage from "../clubHeads/page";
 
@@ -29,75 +21,34 @@ export default function Hero() {
   const clubArr = [
     {
       "website":"",
-      "title": "CAE",
-      "imageSrc": cae,
+      "title": "Athletics Club",
+      "imageSrc": ath,
     },
     {
       "website":"",
-      "title": "CFA",
-      "imageSrc": cfa,
+      "title": "Basketball Club",
+      "imageSrc": bb,
     },
     {
       "website":"",
-      "title": "Concreate",
-      "imageSrc": concreate,
+      "title": "Cricket Club",
+      "imageSrc": cc,
     },
     {
       "website":"https://cynaptics.vercel.app/",
-      "title": "Cynaptics",
-      "imageSrc": cyn,
+      "title": "Tennis Club",
+      "imageSrc": tc,
     },
     {
       "website":"",
-      "title": "Electronics Club",
-      "imageSrc": electr,
+      "title": "Volleyball Club",
+      "imageSrc": vb,
     },
     {
       "website":"",
-      "title": "GDSC",
-      "imageSrc": gdsc,
+      "title": "Table Tennis Club",
+      "imageSrc": tt,
     },
-    {
-      "website":"",
-      "title": "IVDC-Intelligent Vehicle Design Club",
-      "imageSrc": ivdc,
-    },
-    {
-      "website":"http://metacryst.iiti.ac.in/",
-      "title": "Metacryst",
-      "imageSrc": meta,
-    },
-    {
-      "website":"http://progclub.iiti.ac.in/",
-      "title": "The Programming Club",
-      "imageSrc": pclub,
-    },
-    {
-      "website":"",
-      "title": "Quantum Computing",
-      "imageSrc": quantum,
-    },
-    {
-      "website":"",
-      "title": "Gymkhana Web Team",
-      "imageSrc": webgym,
-    },
-    {
-      "website":"",
-      "title": "Robotics Club",
-      "imageSrc": robo,
-    },
-    {
-      "website":"",
-      "title": "Astronomy Club",
-      "imageSrc": astro,
-    },
-    {
-      "website":"",
-      "title": "Science and Technology Council",
-      "imageSrc": snt,
-    },
-    
     
   ];
   return (
@@ -114,7 +65,7 @@ export default function Hero() {
         <Image
           src={heroImage}
           alt="Hero Background"
-          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-50"
+          className="w-full h-auto absolute z-[-1] scale-1.2 object-cover brightness-75"
           layout="fill"
         />
         <motion.div
@@ -128,7 +79,7 @@ export default function Hero() {
         >
           <Header item={"Student Gymkhana"} />
           <Image
-          className="relative right-0 top-[-32vh] z-100 invisible xl:visible"
+          className="relative right-[-10vh] top-[-32vh] z-100 invisible xl:visible"
           src="/blue_dots.svg"
           width={400}
           height={400}
@@ -140,7 +91,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[2vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[11vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
         //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>
@@ -210,7 +161,7 @@ export default function Hero() {
                   </ul>
               </div>
               </div> */}
-                <div className="flex flex-col items-center pb-10 overflow-x-hidden w-full">
+                <div className="flex flex-col items-center pb-10">
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
@@ -227,7 +178,7 @@ export default function Hero() {
                     />
                     
                   </motion.div>
-                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center w-full overflow-x-hidden ">
+                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center ">
                     <h5 className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white">
                       {item.title}
                     </h5>

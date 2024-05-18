@@ -255,7 +255,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[50vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[10vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
       >
         <ScrollReveal>
           {/* <hr className="w-[15vw] pb-10 border-b-2 border-t-0 border-blue-500" />
