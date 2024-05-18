@@ -1,141 +1,87 @@
-"use client"; //important for framer motion to work
+"use client";
 
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/clubHeads/hero.png";
+import heroImage from "../../../../public/assests/sports/image (1).jpg";
 // import clubArr from "./clubData";
-import Header from "./header";
 import testImg from "../../../../public/assests/clubHeads/img.png";
 import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_black.webp";
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
 import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
 
-import aaina from "../../../../public/assests/cult_clubs_heads/aaina.jpg";
-import alpha from "../../../../public/assests/cult_clubs_heads/alpha.jpg";
-import avana from "../../../../public/assests/cult_clubs_heads/avana.jpg";
-import cinephiles from "../../../../public/assests/cult_clubs_heads/cinephiles.jpg";
-import debsoc from "../../../../public/assests/cult_clubs_heads/debsoc.jpg";
-import ebsb from "../../../../public/assests/cult_clubs_heads/ebsb.jpg";
-import game from "../../../../public/assests/cult_clubs_heads/game.jpg";
-import liter from "../../../../public/assests/cult_clubs_heads/liter.jpg";
-import music from "../../../../public/assests/cult_clubs_heads/music.jpg";
-import mystic from "../../../../public/assests/cult_clubs_heads/mystic.jpg";
-import srijan from "../../../../public/assests/cult_clubs_heads/srijan.jpg";
+import Header from "./header";
+import badminton from "../../../../public/assests/sports_head/Badminton.jpg";
+import chess from "../../../../public/assests/sports_head/chess.jpg";
+import cricket from "../../../../public/assests/sports_head/cricket.jpg";
+import football from "../../../../public/assests/sports_head/football.jpg";
+import squash from "../../../../public/assests/sports_head/squash.jpg";
+import tt from "../../../../public/assests/sports_head/tt.jpg";
 
 // import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
-      club_name: "Aaina",
-      head: "Kanak Nagar",
+      club_name: "Chess Club",
+      head: "Saket Thamke",
       post: "Head",
-      img: aaina,
-      club_insta: "https://www.instagram.com/dramaticsclubiti",
-      head_insta: "https://www.linkedin.com/in/saina-it-indore-832082273",
-      head_lin: "",
-      website: "",
-    },
-    {
-      club_name: "D Alpha Crewz",
-      head: "Anand Prakash",
-      post: "Head",
-      img: alpha,
-      club_insta: "https://www.instagram.com/d_alpha2crew",
-      head_insta: "",
-      head_lin: "",
-      website: "",
-    },
-    {
-      club_name: "Avana",
-      head: "Aditya Girge",
-      post: "Head",
-      img: avana,
-      club_insta: "https://www.instagram.com/avana_posh=MWUSazNvbWuOXQ2",
-      head_insta: "",
-      head_lin: "https://www.linkedin.com/company/avana-ist-indore",
-      website: "",
-    },
-    {
-      club_name: "Cinephiles",
-      head: "Anshul Vijaywargiya",
-      post: "Head",
-      img: cinephiles,
-      club_insta: "https://www.instagram.com/cinephiles_liti?igsh: YzB4YnF0ZDZxaWQZ",
-      head_insta: "",
-      head_lin: "",
-      website: "",
-    },
-    {
-      club_name: "Debsoc",
-      head: "", // Leave empty as info not provided
-      post: "Head",
-      img: debsoc,
+      img: chess,
       club_insta: "",
-      head_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
       head_lin: "",
-      website: "",
+      website: "http://people.iiti.ac.in/~sports/",
     },
     {
-      club_name: "EBSB",
-      head: "", // Leave empty as info not provided
+      club_name: "Football Club",
+      head: "Biradhar Saketh",
       post: "Head",
-      img: ebsb,
+      img: football,
       club_insta: "",
-      head_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
       head_lin: "",
-      website: "",
+      website: "http://people.iiti.ac.in/~sports/",
     },
     {
-      club_name: "Gaming Club",
-      head: "Harshit Gupta",
+      club_name: "Table Tennis Club",
+      head: "Samrudhhee",
       post: "Head",
-      img: game,
-      club_insta: "https://tinyurl.com/mrybyp2c",
-      head_insta: "",
-      head_lin: "https://www.linkedin.com/company/esports-and-gaming-club-iit-indore",
-      website: "",
-    },
-    {
-      club_name: "Literary Club",
-      head: "Chirag Sonwane", // Leave empty as info not provided
-      post: "Head",
-      img: liter,
+      img: tt,
       club_insta: "",
-      head_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
       head_lin: "",
-      website: "",
+      website: "http://people.iiti.ac.in/~sports/",
     },
     {
-      club_name: "Music Club",
-      head: "Shubham Pawar",
+      club_name: "Squash Club",
+      head: "Yash Khare",
       post: "Head",
-      img: music,
-      club_insta: "https://www.instagram.com/thermusicclub_lit?iash=Z255NG5nc2NkZmQx",
-      head_insta: "",
-      head_lin: "https://www.linkedin.com/company/music-club-it-indore/",
-      website: "",
-    },
-    {
-      club_name: "Mystic Hues",
-      head: "Umang Dosi",
-      post: "Head",
-      img: mystic,
-      club_insta: "https://www.instagram.com/mystichues?igsh-N2RxeWU4dmcyb3L/3",
-      head_insta: "",
+      img: squash,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
       head_lin: "",
-      website: "",
+      website: "http://people.iiti.ac.in/~sports/",
     },
     {
-      club_name: "Srijan Club",
-      head: "Raina Tathed",
+      club_name: "Badminton Club",
+      head: "Anshul",
       post: "Head",
-      img: srijan,
-      club_insta: "https://www.instagram.com/sriian_indore",
-      head_insta: "",
-      head_lin: "https://www.linkedin.com/company/srijan_iit",
+      img: badminton,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
+    },
+    {
+      club_name: "Cricket Club",
+      head: "Yogesh Patidar",
+      post: "Head",
+      img: cricket,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
     },
   ];
   return (
@@ -165,7 +111,7 @@ export default function Hero() {
             damping: 10,
           }}
         >
-          <Header item={"Cultural Clubs"} />
+          <Header item={"Technical Council"} />
         </motion.div>
       </div>
 
@@ -245,7 +191,7 @@ export default function Hero() {
               </div>
               </div> */}
                 <motion.div
-                  className="flex flex-col items-center pb-10 cursor-pointer "
+                  className="flex flex-col items-center pb-5 cursor-pointer "
                   whileHover={{ scale: 1.05, filter: "brightness(1.2)" }}
                   transition={{ duration: 0.5 }}
                 >
@@ -286,7 +232,7 @@ export default function Hero() {
                         />
                       </a>
 
-                      <a href={item.club_insta} target="_blank">
+                      <a href={item.head_insta} target="_blank">
                         <Image
                           src={insta_icon}
                           unoptimized
@@ -296,14 +242,14 @@ export default function Hero() {
                       </a>
                     </div>
                   </div>
-                  <div className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer  ">
+                  {/* <div className="w-20 h-12 mb-[-15vw] mt-1 flex items-center justify-center cursor-pointer  "> */}
                     {/* <motion.button
                       className="px-4 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-lg cursor-pointer md:block lg:block xl:block scroll-smooth sm:hidden"
                       whileTap={{ filter: "brightness(1.2)" }}
                     >
                       {item.post}
                     </motion.button> */}
-                  </div>
+                  {/* </div> */}
                 </motion.div>
               </ScrollReveal>
             </div>

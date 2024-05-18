@@ -109,7 +109,7 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden relative h-[100vh] "
+        className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
       >
         <Image
           src={heroImage}
@@ -140,7 +140,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[11vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[2vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
         //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>

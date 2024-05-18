@@ -15,7 +15,7 @@ function NavbarComponent() {
   return (
     <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
-        <Dropdown className="bg-transparent">
+        <Dropdown className="bg-black bg-opacity-35">
           <DropdownTrigger>
             <Button className="text-white bg-transparent text-base">
               CLUBS
@@ -30,7 +30,7 @@ function NavbarComponent() {
               </Link>
             </DropdownItem>
             <DropdownItem key="sports">
-              <Link href="/club/clubs">
+              <Link href="/sports/clubs">
                 <Button className="text-base text-white bg-opacity-0 hover:text-black  hover:transition-all">
                   SPORTS CLUBS
                 </Button>

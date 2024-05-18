@@ -3,66 +3,53 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/cult_clubs/hero_bg.jpg";
+import heroImage from "../../../../public/assests/sports/image (1).jpg";
 // import clubArr from "./clubData";
-
 import Header from "./header";
-import aaina from "../../../../public/assests/cult_clubs/aaina_logo.png";
-import alphad from "../../../../public/assests/cult_clubs/alphad.jpg";
-import avana from "../../../../public/assests/cult_clubs/avana.png";
-import cinephiles from "../../../../public/assests/cult_clubs/cinephiles.jpg";
-import ebsb from "../../../../public/assests/cult_clubs/ebsb.png";
-import gaming from "../../../../public/assests/cult_clubs/gaming.png";
-import kalakriti from "../../../../public/assests/cult_clubs/kalakriti.png";
-import vlr from "../../../../public/assests/cult_clubs/vlr.png";
+import ath from "../../../../public/assests/sports/ath.png";
+import bb from "../../../../public/assests/sports/bb.png";
+import cc from "../../../../public/assests/sports/cc.jpg";
+import tc from "../../../../public/assests/sports/tc.jpg";
+import vb from "../../../../public/assests/sports/vb.png";
+import tt from "../../../../public/assests/sports/tt.png";
 
-import HeadsPage from "../../cult/clubHeads/page";
-
+import HeadsPage from "../clubHeads/page";
 
 import { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
-      "website": "",
-      "title": "Aaina  Club",
-      "imageSrc": aaina
+      "website":"",
+      "title": "Athletics Club",
+      "imageSrc": ath,
     },
     {
-      "website": "",
-      "title": "D' Alpha Crewz",
-      "imageSrc": alphad
+      "website":"",
+      "title": "Basketball Club",
+      "imageSrc": bb,
     },
     {
-      "website": "",
-      "title": "Avana Club",
-      "imageSrc": avana
+      "website":"",
+      "title": "Cricket Club",
+      "imageSrc": cc,
     },
     {
-      "website": "",
-      "title": "Cinephiles",
-      "imageSrc": cinephiles
+      "website":"https://cynaptics.vercel.app/",
+      "title": "Tennis Club",
+      "imageSrc": tc,
     },
     {
-      "website": "",
-      "title": "EBSB Club",
-      "imageSrc": ebsb
+      "website":"",
+      "title": "Volleyball Club",
+      "imageSrc": vb,
     },
     {
-      "website": "",
-      "title": "Gaming Club",
-      "imageSrc": gaming
+      "website":"",
+      "title": "Table Tennis Club",
+      "imageSrc": tt,
     },
-    {
-      "website": "",
-      "title": "Kalakriti Club",
-      "imageSrc": kalakriti
-    },
-    {
-      "website": "",
-      "title": "VLR Club",
-      "imageSrc": vlr
-    }
+    
   ];
   return (
     <>
@@ -73,12 +60,12 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden mt-[-10vh]  relative h-[100vh] "
+        className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
       >
         <Image
           src={heroImage}
           alt="Hero Background"
-          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-50"
+          className="w-full h-auto absolute z-[-1] scale-1.2 object-cover brightness-75"
           layout="fill"
         />
         <motion.div
@@ -92,9 +79,9 @@ export default function Hero() {
         >
           <Header item={"Student Gymkhana"} />
           <Image
-          className="relative right-[-5vh] top-[-32vh] z-100 invisible xl:visible"
+          className="relative right-[-10vh] top-[-32vh] z-100 invisible xl:visible"
           src="/blue_dots.svg"
-          width={450}
+          width={400}
           height={400}
           objectFit="contain"
           alt="Random plus"
@@ -104,7 +91,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[2vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[11vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
         //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>
