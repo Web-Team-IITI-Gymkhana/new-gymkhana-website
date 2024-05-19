@@ -3,9 +3,9 @@ export default function CounciHeads() {
   return (
     <>
       <section className=" py-12 bg-[url(/bg4.jpg)] bg-cover">
-        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-bold">Council Heads</h1>
-        <div className="grid grid-cols-3 gap-3 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[445px]:grid-cols-1">
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100  mx-auto ">
+        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-bold">Our Secretaries</h1>
+        <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[445px]:grid-cols-1 justify-center w-[80%] mx-auto pl-20">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100   ">
             <img
               src="/President.jpg"
               alt="Prseident Student`s Gymkhana"
@@ -84,7 +84,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto  ">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100  ">
             <img
               src="GS Cult.jpg"
               alt="GS Cultural Affairs"
@@ -163,7 +163,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS Acad Ug.png"
               alt="GS Academics UG"
@@ -242,7 +242,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex  bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex  bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/Gs Hostel.jpg"
               alt="GS Hostel Affairs"
@@ -321,7 +321,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS MAC.jpg"
               alt="GS MAC"
@@ -400,7 +400,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS SnT.JPG"
               alt="GS Science and Technology"
@@ -479,7 +479,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS Acad Pg.jpg"
               alt="GS Academics PG"
@@ -558,7 +558,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS COA.jpg"
               alt="GS COA"
@@ -637,7 +637,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-auto">
+          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
             <img
               src="/GS Sports.jpg"
               alt=" GS Sports Affairs"

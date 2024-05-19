@@ -346,7 +346,7 @@ export default function ImageGallery() {
   return (
     <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
       <div className="h-[8vh] text-center pt-2.5 text-white first-letter:text-orange-600 font-black text-3xl max-[350px]:text-xl">
-        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 text-6xl ">
+        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 text-5xl ">
           GALLERY
         </span>
       </div>
