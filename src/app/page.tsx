@@ -62,9 +62,6 @@ window.location.assign('https://www.iiti.ac.in/');
           Know more
         </Button>
       </div>
-      <div className="player-wrapper">
-       
-      </div>
       <Council/>
       <CouncilHead/>
       <section className="bg-zinc-900 px-12 md:px-48 py-4 md:py-4">
