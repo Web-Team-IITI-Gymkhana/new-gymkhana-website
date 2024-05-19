@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { Fullscreen } from "@mui/icons-material";
 import { Button } from "@nextui-org/react";
 // import ReactPlayer from "react-player";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 import {
   Carousel,
@@ -17,13 +17,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import "./globals.css";
 // import Heroo from "./pages/clubs/page";
-import CouncilHead from "../components/Councilhead"
+import CouncilHead from "../components/Councilhead";
 
 import Council from "./council/council";
+import ClubsHomePage from "@/components/ClubsHomePage";
 export default function Home() {
-  const plugin = useRef(Autoplay({ delay: 10000, stopOnInteraction: true }));
-  function LearnMore(){
-window.location.assign('https://www.iiti.ac.in/');
+  const plugin = useRef(Autoplay({ delay: 4000, stopOnInteraction: true }));
+  function LearnMore() {
+    window.location.assign("https://www.iiti.ac.in/");
   }
   return (
     <>
@@ -32,7 +33,6 @@ window.location.assign('https://www.iiti.ac.in/');
         src="/main_logo.png"
         width={200}
         height={200}
-        
         alt="Gymkhana main Logo"
       />
       <Image
@@ -40,7 +40,6 @@ window.location.assign('https://www.iiti.ac.in/');
         src="/red_plus.svg"
         width={230}
         height={230}
-        
         alt="Random plus"
       />
       <div className="hero_section w-full absolute top-0 h-[90vh] bg-[url('/hero_background.png')] -z-10 bg-cover bg-center"></div>
@@ -63,7 +62,7 @@ window.location.assign('https://www.iiti.ac.in/');
           Know more
         </Button>
       </div>
-      <div className="player-wrapper">
+      {/* <div className="player-wrapper">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=SdH1PKV7pr4"
           playing={true}
@@ -73,15 +72,21 @@ window.location.assign('https://www.iiti.ac.in/');
           height={"100%"}
           className="react-player"
         />
-      </div>
-      <Council/>
-      <CouncilHead/>
-      <section className="bg-zinc-900 px-12 md:px-48 py-4 md:py-4">
+      </div> */}
+      <Council />
+      <CouncilHead />
+      <ClubsHomePage />
+      <section
+        className="bg-zinc-900 px-8 md:px-32 py-4 md:py-4"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233f3f46' fill-opacity='0.4'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }}
+      >
         <p className="text-6xl font-sans font-bold text-white my-4">Events</p>
         <div className="flex flex-col items-center mb-10">
           <Carousel
             plugins={[plugin.current]}
-            className="w-full max-w-2xl"
+            className="w-full max-w-3xl"
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
           >
