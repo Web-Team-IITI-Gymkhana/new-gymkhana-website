@@ -1,10 +1,6 @@
 "use client";
 import { useRef } from "react";
-import { Fullscreen } from "@mui/icons-material";
 import { Button } from "@nextui-org/react";
-// import ReactPlayer from "react-player";
-import dynamic from "next/dynamic";
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 import {
   Carousel,
   CarouselContent,
@@ -16,9 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import "./globals.css";
-// import Heroo from "./pages/clubs/page";
 import CouncilHead from "../components/Councilhead";
-
 import Council from "./council/council";
 import ClubsHomePage from "@/components/ClubsHomePage";
 export default function Home() {
@@ -62,38 +56,61 @@ export default function Home() {
           Know more
         </Button>
       </div>
-      {/* <div className="player-wrapper">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=SdH1PKV7pr4"
-          playing={true}
-          controls={false}
-          muted={true}
-          width={"100%"}
-          height={"100%"}
-          className="react-player"
-        />
-      </div> */}
+     
       <Council />
       <CouncilHead />
-      <ClubsHomePage />
+        <section className="bg-[url(/bg2.jpg)] bg-cover bg-center text-white px-12 md:px-48 py-4 md:py-8">
+          <div className="flex flex-row flex-wrap-reverse">
+            <div className="w-[50%]">
+            <p className="text-6xl font-sans font-bold my-4 text-center">About Us</p>
+            <p className="max-w-3xl text-2xl my-12">
+              A major attraction of IITI is its eminent faculty members and
+              flexible education system. The faculty of IM is one of the best
+              among Indian professional institutes. The faculty members are
+              excellent teachers and mentors and have many achievements in their
+              fields. Most of our professors are researchers themselves and are
+              deeply connected to their subjects of interest, says a student. It
+              is this attitude of our professors that really makes them special
+              and attractive to our students. Student Gymkhana is the student
+              organization of IIT Indore. The Senate consists of two branches
+              namely the Executive and the Councillors. The elected
+              representatives of the students strive to promote growth and
+              leadership among the students by helping them maximize their talents
+              by coordinating various programs. To promote co-curricular
+              activities and interests. Gymkhana has a number of clubs and groups
+              dedicated to the interests of the students.
+            </p>
+            </div>
+            <div className="w-[40%] mx-auto ">
+            <Image
+        className="pt-28 pl-28"
+        src="/main_logo.png"
+        width={550}
+        height={550}
+        alt="Gymkhana main Logo"
+      />
+            </div>
+          </div>
+        </section>
+        <ClubsHomePage />
       <section
         className="bg-zinc-900 px-8 md:px-32 py-4 md:py-4"
         style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233f3f46' fill-opacity='0.4'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}
       >
-        <p className="text-6xl font-sans font-bold text-white my-4">Events</p>
-        <div className="flex flex-col items-center mb-10">
+        <p className="text-6xl font-sans font-bold text-white my-4 text-center">Events</p>
+        <div className="flex flex-col items-center my-10">
           <Carousel
             plugins={[plugin.current]}
-            className="w-full max-w-3xl"
+            className="w-full max-w-[70%] "
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="border-0">
-                  <div className="flex lg:flex-row flex-col mx-4">
+                <Card className="border-0 ">
+                  <div className="flex lg:flex-row flex-col mx-4  ">
                     <Image
                       src="/HomePage/AT.gif"
                       width={0}
@@ -102,8 +119,8 @@ export default function Home() {
                       alt="fluxus"
                     />
                     <div className="flex flex-col justify-center">
-                      <p className="text-xl font-bold">Fluxus</p>
-                      <p>
+                      <p className="text-2xl font-bold text-center lg:text-start">Fluxus</p>
+                      <p className="w-[90%] text-xl">
                         Fluxus is a registered entity of the Indian Institute of
                         Technology Indore since 2011 and is an event entirely
                         organized by the student community of the college.Fluxus
@@ -127,8 +144,8 @@ export default function Home() {
                       alt="fluxus"
                     />
                     <div className="flex flex-col justify-center">
-                      <p className="text-xl font-bold">Euristica</p>
-                      <p>
+                      <p className="text-2xl font-bold">Euristica</p>
+                      <p className="w-[90%] text-xl">
                         Euristica, the annual coding festival of our college.
                         Euristica'18 and Euristica'19 was an immense success.
                         The next iteration of Euristica will be grander than
@@ -151,8 +168,8 @@ export default function Home() {
                       alt="fluxus"
                     />
                     <div className="flex flex-col justify-center">
-                      <p className="text-xl font-bold">MUN-IITI</p>
-                      <p>
+                      <p className="text-2xl font-bold">MUN-IITI</p>
+                      <p className="w-[90%] text-xl">
                         IITI is back again with the focus of giving a platform
                         to young, budding pioneers and pacesetters, aims to
                         address some of the very grave problems engulfing the
@@ -167,41 +184,13 @@ export default function Home() {
                 </Card>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="w-10 h-10" />
+            <CarouselNext className="w-10 h-10"/>
           </Carousel>
         </div>
       </section>
-      <section className="bg-[url(/bg2.jpg)] bg-contain text-white px-12 md:px-48 py-4 md:py-4">
-        <div>
-          <p className="text-6xl font-sans font-bold my-4">About Us</p>
-          <p className="max-w-3xl text-lg mb-12">
-            A major attraction of IITI is its eminent faculty members and
-            flexible education system. The faculty of IM is one of the best
-            among Indian professional institutes. The faculty members are
-            excellent teachers and mentors and have many achievements in their
-            fields. Most of our professors are researchers themselves and are
-            deeply connected to their subjects of interest, says a student. It
-            is this attitude of our professors that really makes them special
-            and attractive to our students. Student Gymkhana is the student
-            organization of IIT Indore. The Senate consists of two branches
-            namely the Executive and the Councillors. The elected
-            representatives of the students strive to promote growth and
-            leadership among the students by helping them maximize their talents
-            by coordinating various programs. To promote co-curricular
-            activities and interests. Gymkhana has a number of clubs and groups
-            dedicated to the interests of the students.
-          </p>
-        </div>
-      </section>
-      <Image
-        className="absolute right-0 top-[70vh] z-10 invisible xl:visible"
-        src="/blue_dots.svg"
-        width={250}
-        height={250}
-        objectFit="contain"
-        alt="Random plus"
-      />
+      
+      
     </>
   );
 }

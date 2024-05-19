@@ -11,7 +11,7 @@ const ClubCard = ({image, event, name}:{image:string; event:string; name:string}
     return(
         <Card
         isFooterBlurred
-        className="w-fit h-[300px] col-span-12 sm:col-span-5"
+        className="w-fit h-[300px] col-span-12 sm:col-span-5 mx-auto"
       >
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
@@ -49,9 +49,9 @@ const ClubCard = ({image, event, name}:{image:string; event:string; name:string}
 
 function ClubsHomePage() {
   return (
-    <section className="bg-zinc-900 px-8 md:px-32 py-4 md:py-4">
-        <p className="text-6xl font-sans font-bold text-white my-4">Our Clubs</p>
-        <div className="flex flex-col md:flex-row items-center mb-10 gap-4">
+    <section className="bg-zinc-900 px-8 md:px-32 py-8 md:py-4">
+        <p className="text-6xl font-sans font-bold text-white my-4 text-center">Our Clubs</p>
+        <div className="flex flex-col md:flex-row items-center my-10 gap-4">
       <ClubCard name={"Cultural Clubs"} event={"T vs M 2023"} image={"/HomePage/CultClubs.jpg"}/>
       <ClubCard name={"Sports Clubs"} event={"?"} image={"/HomePage/CultClubs.jpg"}/>
       <ClubCard name={"Tech Clubs"} event={"?"} image={"/HomePage/CultClubs.jpg"}/>

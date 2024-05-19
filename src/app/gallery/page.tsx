@@ -151,6 +151,167 @@ export default function ImageGallery() {
           // Add more Fluxus event images here...
         ],
       },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
+      {
+        name: "T vs M",
+        src: "/assests/tvsm.jpg",
+        alt: "TVSM Event",
+        gallery: [ // Array of Fluxus event images
+          "/assests/tvsm/tvsm1.jpg",
+          "/assests/tvsm/tvsm2.jpg",
+          "/assests/tvsm/tvsm3.jpg",
+          "/assests/tvsm/tvsm4.jpg",
+          "/assests/tvsm/tvsm5.jpg",
+          "/assests/tvsm/tvsm6.jpg",
+          "/assests/tvsm/tvsm7.jpg",
+          "/assests/tvsm/tvsm8.jpg",
+          "/assests/tvsm/tvsm9.jpg",
+          "/assests/tvsm/tvsm10.jpg",
+          "/assests/tvsm/tvsm11.jpg",
+          "/assests/tvsm/tvsm12.jpg",
+          "/assests/tvsm/tvsm13.jpg",
+          "/assests/tvsm/tvsm14.jpg",
+          "/assests/tvsm/tvsm15.jpg",
+          // Add more Fluxus event images here...
+        ],
+      },
       // Add other event objects here...
     ]);
   }, []);
@@ -183,14 +344,14 @@ export default function ImageGallery() {
   };
 
   return (
-    <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')]">
+    <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
       <div className="h-[8vh] text-center pt-2.5 text-white first-letter:text-orange-600 font-black text-3xl max-[350px]:text-xl">
-        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 ">
+        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 text-5xl ">
           GALLERY
         </span>
       </div>
       <div className="mainbody w-[100vw]">
-        <div className="flex flex-wrap justify-center w-4/5 mx-auto overflow-y-auto mt-2">
+        <div className="flex flex-wrap justify-center w-full mx-auto overflow-y-auto mt-2">
           {events.map((event, index) => (
             <div
               key={index}
@@ -206,6 +367,7 @@ export default function ImageGallery() {
                 className="border-4 border-solid border-white hover:border-yellow-500"
                 onClick={() => handleEventClick(index)}
               />
+              <p className="text-center p-1 text-white text-4xl font-semibold">{event.name}</p>
             </div>
           ))}
           {selectedEvent && (
