@@ -29,13 +29,13 @@ export default function Home() {
         height={200}
         alt="Gymkhana main Logo"
       />
-      <Image
+      {/* <Image
         className="absolute top-20 left-24 z-10 invisible xl:visible bg-contain"
         src="/red_plus.svg"
         width={230}
         height={230}
         alt="Random plus"
-      />
+      /> */}
       <div className="hero_section w-full absolute top-0 h-[90vh] bg-[url('/hero_background.png')] -z-10 bg-cover bg-center"></div>
       <div className="flex flex-col bg-opacity-0 h-2/3 xl:px-48 xl:py-40 px-16 py-28 justify-center">
         <span>
