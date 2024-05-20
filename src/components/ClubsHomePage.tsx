@@ -2,62 +2,149 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
-  Image,
+  Typography,
   Button,
-} from "@nextui-org/react";
-import {Launch} from '@mui/icons-material/';
-const ClubCard = ({image, event, name}:{image:string; event:string; name:string})=>{
-    return(
-        <Card
-        isFooterBlurred
-        className="w-fit h-[300px] col-span-12 sm:col-span-5 mx-auto"
-      >
-        <CardHeader className="absolute z-10 top-1 flex-col items-start">
-          <p className="text-tiny text-white/60 uppercase font-bold">
-            {event}
-          </p>
-          <h4 className="text-white font-medium text-2xl">{name}</h4>
-        </CardHeader>
-        <Image
-          removeWrapper
-          alt="Card example background"
-          className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-          src={image}
-        />
-        {/* <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-        <Button className="text-tiny ml-auto" color="primary" radius="full" size="sm">
-          Know More
-        </Button>
-      </CardFooter> */}
-        <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-          {/* <p className="text-tiny text-white/80">Available soon.</p> */}
-          <Button
-            className="text-tiny text-white bg-black/20"
-            variant="flat"
-            color="default"
-            radius="lg"
-            size="sm"
-          >
-            Know more
-            <Launch sx={{fontSize:16}}/>
-          </Button>
-        </CardFooter>
-      </Card>
-    )
-}
+} from "@material-tailwind/react";
 
-function ClubsHomePage() {
+export default function HorizontalCard() {
   return (
-    <section className="bg-zinc-900 px-8 md:px-32 py-8 md:py-4">
-        <p className="text-6xl font-sans font-bold text-white my-4 text-center">Our Clubs</p>
-        <div className="flex flex-col md:flex-row items-center my-10 gap-4">
-      <ClubCard name={"Cultural Clubs"} event={"T vs M 2023"} image={"/HomePage/CultClubs.jpg"}/>
-      <ClubCard name={"Sports Clubs"} event={"?"} image={"/HomePage/CultClubs.jpg"}/>
-      <ClubCard name={"Tech Clubs"} event={"?"} image={"/HomePage/CultClubs.jpg"}/>
-      </div>
+    <section className="w-full flex-col py-6 items-center bg-gray-800">
+      <h1 className="font-bold text-6xl text-center text-white">
+        CLUBS AT IITI
+      </h1>
+      {/* Card1  */}
+      <Card className="w-[70%] flex-row my-6 mx-auto ml-6">
+        <CardHeader
+          shadow={false}
+          floated={false}
+          className="m-0 w-2/5 shrink-0 rounded-r-none"
+        >
+          <img
+            src="/technicalclubs.png"
+            alt="card-image"
+            className="h-full w-full object-cover"
+          />
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h3" color="blue-gray" className="mb-2 mt-6">
+            Technical Clubs
+          </Typography>
+          <Typography color="gray" className="mb-8 font-normal text-lg">
+            Technical clubs at IIT Indore foster innovation and skill
+            development, offering students opportunities in robotics, coding,
+            electronics, and analytics through workshops, competitions, and
+            collaborative projects, enhancing their practical knowledge and
+            industry readiness.
+          </Typography>
+          <a href="/club/clubs" className="inline-block">
+            <Button variant="text" className="flex items-center gap-2 text-lg">
+              See More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </Button>
+          </a>
+        </CardBody>
+      </Card>
+      {/* Card2  */}
+      <Card className="w-[70%] flex-row my-6 mx-auto mr-6">
+        <CardHeader
+          shadow={false}
+          floated={false}
+          className="m-0 w-2/5 shrink-0 rounded-r-none"
+        >
+          <img
+            src="/culturalclubs.png"
+            alt="card-image"
+            className="h-full w-full object-cover"
+          />
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h3" color="blue-gray" className="mb-2 mt-6">
+            Cultural Clubs
+          </Typography>
+          <Typography color="gray" className="mb-8 font-normal text-lg">
+            Cultural clubs at IIT Indore celebrate diversity and creativity,
+            offering students opportunities in music, dance, drama, art, and
+            literature through events, workshops, and festivals, enriching their
+            campus life and personal growth.
+          </Typography>
+          <a href="/cult/clubs" className="inline-block">
+            <Button variant="text" className="flex items-center gap-2 text-lg">
+              See More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </Button>
+          </a>
+        </CardBody>
+      </Card>
+      {/* Card3  */}
+      <Card className="w-[70%] flex-row my-6 mx-auto ml-6">
+        <CardHeader
+          shadow={false}
+          floated={false}
+          className="m-0 w-2/5 shrink-0 rounded-r-none"
+        >
+          <img
+            src="/sportsclubs.jpg"
+            alt="card-image"
+            className="h-full w-full object-cover"
+          />
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h3" color="blue-gray" className="mb-2 mt-6">
+            Sports Clubs
+          </Typography>
+          <Typography color="gray" className="mb-8 font-normal text-lg">
+            Sports clubs at IIT Indore promote fitness and teamwork, offering
+            students opportunities in athletics, cricket, football, basketball,
+            and more through regular training, competitions, and events,
+            enhancing their physical health and sportsmanship.
+          </Typography>
+          <a href="/sports/clubs" className="inline-block">
+            <Button variant="text" className="flex items-center gap-2 text-lg">
+              See More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </Button>
+          </a>
+        </CardBody>
+      </Card>
     </section>
   );
 }
-
-export default ClubsHomePage;
