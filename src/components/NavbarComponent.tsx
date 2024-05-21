@@ -1,8 +1,5 @@
 
 "use client";
-
-"use client"
-
 import Link from "next/link";
 import {
   Button,
@@ -19,7 +16,7 @@ function NavbarComponent() {
   return (
     <div className="grid grid-cols-3 w-full bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0">
       <span className="col-start-2 invisible xl:visible w-full flex flex-row gap-2 justify-between">
-        <Dropdown className="bg-black bg-opacity-35">
+        <Dropdown className="bg-black rounded-lg outline-none bg-opacity-35">
           <DropdownTrigger>
             <Button className="text-white bg-transparent text-base">
               CLUBS
@@ -28,20 +25,20 @@ function NavbarComponent() {
           <DropdownMenu className="text-white">
             <DropdownItem key="tech" className="text-white">
               <Link href="/club/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
                   TECHNICAL CLUBS
                 </Button>
               </Link>
             </DropdownItem>
             <DropdownItem key="sports">
               <Link href="/sports/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black  hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300  hover:transition-all">
                   SPORTS CLUBS
                 </Button>
               </Link>
             </DropdownItem><DropdownItem key="cult">
               <Link href="/cult/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
                   CULTURAL CLUBS
                 </Button>
               </Link>
@@ -68,6 +65,7 @@ function NavbarComponent() {
         </Link>
       </span>
       <span className="justify-self-end">
+        
         <Dropdown backdrop="blur">
           <DropdownTrigger>
 
@@ -77,10 +75,18 @@ function NavbarComponent() {
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
             <DropdownItem>
-              <p className="text-2xl m-2">About Us</p>
+            <Link href="/club/clubs">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
+                  TECHNICAL CLUBS
+                </Button>
+              </Link>
             </DropdownItem>
             <DropdownItem>
-              <p className="text-2xl m-2">FAQs</p>
+            <Link href="/sports/clubs">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300  hover:transition-all">
+                  SPORTS CLUBS
+                </Button>
+              </Link>
             </DropdownItem>
             <DropdownItem>
               <p className="text-2xl m-2">Our Secretaries</p>

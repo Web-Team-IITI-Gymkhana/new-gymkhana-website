@@ -86,6 +86,8 @@ export default function Hero() {
   ];
   return (
     <>
+    <div className="sm:hidden block h-[50vw] bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%">
+</div>
       <div
         id="hero-bg"
         style={{
