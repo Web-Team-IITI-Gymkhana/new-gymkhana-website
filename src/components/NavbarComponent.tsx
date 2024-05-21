@@ -98,7 +98,7 @@ function NavbarComponent() {
               <p className="text-2xl m-2">Contact Us</p>
             </DropdownItem>
             <Button className="bg-opacity-0 pr-4"><MenuIcon sx={{ fontSize: 40, color:"white"}} /></Button>
-          </DropdownTrigger>
+            </DropdownMenu>
           <DropdownMenu aria-label="Static Actions">
             <DropdownItem><p className="text-xl m-2">About Us</p></DropdownItem>
             <DropdownItem><p className="text-xl m-2">FAQs</p></DropdownItem>
@@ -106,7 +106,7 @@ function NavbarComponent() {
             <DropdownItem><p className="text-xl m-2">Cultural Council</p></DropdownItem>
             <DropdownItem><p className="text-xl m-2">Technology Council</p></DropdownItem>
             <DropdownItem><p className="text-xl m-2">Gallery</p></DropdownItem>
-            <DropdownItem><p className="text-xl m-2">Contact Us</p></DropdownItem> main
+            <DropdownItem><p className="text-xl m-2">Contact Us</p></DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </span>
