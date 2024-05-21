@@ -32,7 +32,7 @@ const questions = [
     answer:
       "Library@IIT Indore, known as Learning Resource Center, is a 4-storey building with several books, journals and other publications as well. In addition, the Library also has a 24 hours free study-zone that can be accessed at any time. It has some computers and provides a vibrant space to have a good study time.",
   },
-  {
+  { 
     question: "What are the branch change rules in IIT Indore?",
     answer:
       "There are options for change of branch and this option is based on the grade point average secured in the first year. More details will be provided by the Academic Office at the time of admission.",
@@ -89,7 +89,7 @@ const questions = [
     answer:
       "Security is proactive, vigilant and alert. To assist them, HighTech surveillance cameras with 360 degree rotation and ultra zoom features are installed in the campus.",
   },
-  {
+  { 
     question: "Till what time students are allowed to roam outside the campus?",
     answer:
       "Since IIT Indore is located on the highway that connects Maharashtra, due to safety reasons, the students should return back by 11 PM.",
@@ -99,7 +99,7 @@ const questions = [
     answer:
       "A IIT Indore is a cosmopolitan campus with members from different regions and backgrounds. From time to time, different techno-cultural festivals are conducted on campus. Needless to say, the biggest cultural fest is the Fluxus, which is a 3-day techno-cultural event.",
   },
-  {
+  { 
     question: "Are Bikes or Scooters allowed for students to park on campus?",
     answer:
       "Undergraduate students can bring their bicycles to ply around the campus. Other vehicles are not allowed inside campus for safety reasons.",
@@ -108,15 +108,15 @@ const questions = [
 
 function Page() {
   return (
-    <main className="px-6 sm:px-24">
+    <main className="px-6 sm:px-24 ">
       <p className="text-4xl font-bold">FAQs:</p>
       <section>
         {questions.map((item) => {
           return (
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
-                <AccordionTrigger>{item.question}</AccordionTrigger>
-                <AccordionContent>{item.answer}</AccordionContent>
+                <AccordionTrigger className="text-xl font-semibold">{item.question}</AccordionTrigger>
+                <AccordionContent className="text-lg">{item.answer}</AccordionContent>
               </AccordionItem>
             </Accordion>
           );
