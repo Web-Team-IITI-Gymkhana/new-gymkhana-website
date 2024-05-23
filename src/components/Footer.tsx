@@ -5,7 +5,7 @@ import { Facebook, Instagram, LinkedIn } from "@mui/icons-material";
 import "@fontsource/poppins";
 function Footer() {
   return (
-    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white border-t-2 border-black bg-[url('/bg.png')]">
+    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white border-t-2 border-black ">
       <div className="flex flex-col xl:flex-row items-center justify-between my-2">
         <div className="flex flex-row items-center gap-6">
           <div>

@@ -332,12 +332,12 @@ export default function ImageGallery() {
           EVENTS
         </span>
       </div>
-      <div className="mainbody w-[100vw]">
-        <div className="flex flex-wrap justify-center w-full mx-auto overflow-y-auto mt-2">
+      <div className="mainbody w-full">
+        <div className="flex flex-wrap justify-center w-full mx-auto overflow-y-auto mt-2 px-2 overflow-hidden">
           {events.map((event, index) => (
             <div
               key={index}
-              className="w-1/3 p-2 pb-3"
+              className="w-1/3 p-3 pb-3 max-md:w-1/2 mx-auto"
               style={{ maxWidth: "600px" }}
             >
               <Image
@@ -349,7 +349,7 @@ export default function ImageGallery() {
                 className="border-4 border-solid border-white hover:border-yellow-500"
                 onClick={() => handleEventClick(index)}
               />
-              <p className="text-center p-1 text-white text-4xl font-semibold">{event.name}</p>
+              <p className="text-center p-1 text-white text-lg sm:text-xl md:text-2xl lg:text-4xl     font-semibold">{event.name}</p>
             </div>
           ))}
           {selectedEvent && (
