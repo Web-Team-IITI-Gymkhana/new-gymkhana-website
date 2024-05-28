@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/sports/image (1).jpg";
+import heroImage from "../../../../public/sportsclubs.jpg";
 // import clubArr from "./clubData";
 import Header from "./header";
 import ath from "../../../../public/assests/sports/ath.png";
@@ -14,6 +14,7 @@ import vb from "../../../../public/assests/sports/vb.png";
 import tt from "../../../../public/assests/sports/tt.png";
 import chess from "../../../../public/assests/sports/chess.jpg";
 import football from "../../../../public/assests/sports/football.jpg";
+import badminton from "../../../../public/assests/sports/Badminton_club_logo.png";
 
 import HeadsPage from "../clubHeads/page";
 
@@ -22,42 +23,47 @@ import { before } from "node:test";
 export default function Hero() {
   const clubArr = [
     {
-      "website":"",
+      "website":"#",
       "title": "Athletics Club",
       "imageSrc": ath,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/badmintonclub_iiti/",
+      "title": "Badminton Club",
+      "imageSrc": badminton,
+    },
+    {
+      "website":"https://www.instagram.com/club_basketball_iiti/",
       "title": "Basketball Club",
       "imageSrc": bb,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/theberserkers_iiti/",
       "title": "Chess Club",
       "imageSrc": chess,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/cricket_iiti/",
       "title": "Cricket Club",
       "imageSrc": cc,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/football_club_iiti/",
       "title": "Football club",
       "imageSrc": football,
     },
     {
-      "website":"https://cynaptics.vercel.app/",
+      "website":"https://www.instagram.com/tennis_iiti/",
       "title": "Tennis Club",
       "imageSrc": tc,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/table_tennis_iiti/",
       "title": "Table Tennis Club",
       "imageSrc": tt,
     },
     {
-      "website":"",
+      "website":"https://www.instagram.com/volleyball.iiti/",
       "title": "Volleyball Club",
       "imageSrc": vb,
     },
@@ -77,7 +83,7 @@ export default function Hero() {
         <Image
           src={heroImage}
           alt="Hero Background"
-          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-50"
+          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-30"
           layout="fill"
         />
         <motion.div

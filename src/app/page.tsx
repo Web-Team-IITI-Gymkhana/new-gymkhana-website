@@ -16,7 +16,7 @@ export default function Home() {
   }
   return (
     <>
-    <div className=" w-full top-0 h-[50rem] bg-[url('/Hero.jpg')] -z-10 bg-contain bg-center">
+    <div className=" w-full top-0 h-[50rem] bg-[url('/Hero.jpg')] -z-10 bg-cover bg-center">
       <Image
         className="absolute top-12 left-6 z-20 invisible lg:visible bg-contain"
         src="/main_logo.png"
@@ -50,7 +50,7 @@ export default function Home() {
       <CouncilHead />
       <About/>
      <ClubsHomePage />
-      <Events/>
+      {/* <Events/> */}
       
       
       

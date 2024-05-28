@@ -203,19 +203,21 @@ export default function ImageGallery() {
         ],
       },
       
-      // {
-      //   name: "IBCC",
-      //   src: "/assests/ibcc/ibcc 1.jpg",
-      //   alt: "IBCC",
-      //   gallery: [ // Array of Fluxus event images
-      //     "/assests/ibcc/ibcc 1.jpg",
-      //     "/assests/ibcc/ibcc 2.jpg",
-      //     "/assests/ibcc/ibcc 3.jpg",
-      //     "/assests/ibcc/ibcc 4.jpg",
+      {
+        name: "Fireside Chat with Dr K. SIVAN",
+        src: "/assests/fireside chat/fc2.jpg",
+        alt: "IBCC",
+        gallery: [ // Array of Fluxus event images
+          "/assests/fireside chat/fc1.jpg",
+          "/assests/fireside chat/fc2.jpg",
+          "/assests/fireside chat/fc3.jpg",
+          "/assests/fireside chat/fc4.jpg",
+          "/assests/fireside chat/fc5.jpg",
+          "/assests/fireside chat/fc6.jpg",
           
-      //     // Add more Fluxus event images here...
-      //   ],
-      // },
+          // Add more Fluxus event images here...
+        ],
+      },
       {
         name: "JOSH 3.0",
         src: "/assests/josh/josh1.1.jpg",
@@ -279,7 +281,7 @@ export default function ImageGallery() {
   };
 
   return (
-    <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
+    <div className="p-2 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
       <div className="h-[8vh] text-center pt-2.5 text-white  font-black text-3xl max-[350px]:text-xl">
         <span className="bg-clip-text text-transparent text-yellow-500  text-5xl ">
           EVENTS

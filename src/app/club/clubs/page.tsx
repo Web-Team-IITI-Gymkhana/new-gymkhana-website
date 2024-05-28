@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/clubs/hero-new.jpg";
+import heroImage from "../../../../public/technicalclubs.png";
 // import clubArr from "./clubData";
 import Header from "./header";
 import cae from "../../../../public/assests/clubs/logo/cae.png";
@@ -29,28 +29,28 @@ import { before } from "node:test";
 export default function Hero() {
   const clubArr = [
     {
-      "more":"",
+      "more":"https://www.instagram.com/astronomyclub_iiti/",
       "title": "Astronomy Club",
       "imageSrc": astro,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/aeroclub_iiti/",
       "title": "The Aeromodelling Club",
       "imageSrc":aeromodelling ,
 
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/caeclub_iiti/",
       "title": "CAE",
       "imageSrc": cae,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/cfaclub_iiti/",
       "title": "CFA",
       "imageSrc": cfa,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/concreate_iiti/",
       "title": "Concreate",
       "imageSrc": concreate,
     },
@@ -60,22 +60,22 @@ export default function Hero() {
       "imageSrc": cyn,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/electronics_club_iiti/",
       "title": "Electronics Club",
       "imageSrc": electr,
     },
     {
-      "more":"",
+      "more":"https://gdsc.community.dev/indian-institute-of-technology-indore-india/",
       "title": "GDSC",
       "imageSrc": gdsc,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/gymkhana_iiti/",
       "title": "Gymkhana Web Team",
       "imageSrc": webgym,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/ivdc_iiti/",
       "title": "IVDC-Intelligent Vehicle Design Club",
       "imageSrc": ivdc,
     },
@@ -90,13 +90,13 @@ export default function Hero() {
       "imageSrc": pclub,
     },
     {
-      "more":"",
+      "more":"https://www.instagram.com/quantum_computing_iiti/",
       "title": "Quantum Computing",
       "imageSrc": quantum,
     },
    
     {
-      "more":"",
+      "more":"https://www.instagram.com/roboticsclub_iitindore/",
       "title": "Robotics Club",
       "imageSrc": robo,
     },
@@ -119,7 +119,7 @@ export default function Hero() {
         <Image
           src={heroImage}
           alt="Hero Background"
-          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-50"
+          className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-30"
           layout="fill"
         />
         <motion.div
