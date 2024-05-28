@@ -12,7 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 function NavbarComponent() {
   return (
-    <div className=" bg-gradient-to-b from-black to-transparent items-center py-4 sticky z-20 top-0 w-full">
+    <div className=" bg-black items-center py-4 sticky z-20 top-0 w-full">
       <span className=" flex flex-row lg:w-[50%] mx-auto justify-center ">
         <Link href="/">
           <Button className="text-2xl  max-sm:text-lg  text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">HOME</Button>
@@ -47,7 +47,7 @@ function NavbarComponent() {
           </DropdownMenu>
         </Dropdown>
 
-        <Link href="/gallery">
+        <Link href="/eventsgallery">
           <Button className="text-2xl  max-sm:text-lg text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">EVENTS</Button>
         </Link>
         <Link href="/faq">
