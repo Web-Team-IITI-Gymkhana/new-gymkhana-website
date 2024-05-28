@@ -43,9 +43,8 @@ export default function Hero() {
       head: "Mrunal Nandpure",
       post: "Head",
       img: aero,
-      club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
+      club_insta: "https://www.instagram.com/aeroclub_iiti/",
+      club_lin: "https://www.linkedin.com/company/aeromodelling-club-iit-indore/",
       website: "",
     },
     {
@@ -53,11 +52,8 @@ export default function Hero() {
       head: "Keshav Aggarval",
       post: "Head",
       img: astro,
-      club_insta:
-        "https://instagram.com/astronomyclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta:
-        "https://instagram.com/thedarkernebula?igshid=MzNlNGNkZWQ4Mg==",
-      head_lin: "https://www.linkedin.com/in/divyam-pandey-bbb791228",
+      club_insta:  "https://www.instagram.com/astronomyclub_iiti/",
+      club_lin: "https://www.linkedin.com/company/the-astronomy-club-iit-indore/",
       website: "",
     },
     {
@@ -65,9 +61,8 @@ export default function Hero() {
       head: "Sameer Lakkad",
       img: cae,
       post: "Head",
-      club_insta: "https://instagram.com/caeclub_iiti?igshid=NGExMmI2YTkyZg==",
-      head_insta: "https://instagram.com/jugalshah25?igshid=ZDc4ODBmNjlmNQ==",
-      head_lin: "https://www.linkedin.com/in/jugal-shah-7948b3218",
+      club_insta: "https://www.instagram.com/caeclub_iiti/",
+      club_lin: "https://www.linkedin.com/company/cae-club-iit-indore/",
       website: "",
     },
     {
@@ -76,28 +71,16 @@ export default function Hero() {
       post: "Head",
       img: cfa_overall,
       club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta: "https://instagram.com/tanisha3.3?igshid=NGExMmI2YTkyZg==",
-      head_lin: "https://www.linkedin.com/in/tanisha-sahu-197882232/",
+      club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
       website: "",
     },
-    // {
-    //   club_name: "CFA(Consulting Dept.)",
-    //   head: "Neha Jadhav",
-    //   post: "Head",
-    //   img: testImg,
-    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-    //   head_insta: "",
-    //   head_lin: "linkedin.com/in/neha-sanjay-jadhav",
-    //   website: "",
-    // },
     {
       club_name: "CFA(Finance Dept.)",
       head: "Shivam Sharma",
       post: "Head",
       img: cfa_fin,
       club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta: "https://instagram.com/chetanya_sharma00",
-      head_lin: "https://www.linkedin.com/in/chetanya-sharma0",
+      club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
       website: "",
     },
     {
@@ -105,18 +88,16 @@ export default function Hero() {
       head: "Harsh Sharma",
       post: "Head",
       img: concreate,
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/concreate_iiti/",
+      club_lin: "https://www.linkedin.com/company/concreate-club-iit-indore/",
       website: "",
     },
     {
       club_name: "Electronics Club",
       head: "Pulkit Gupta",
       post: "Head",
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/electronics_club_iiti/",
+      club_lin: "https://www.linkedin.com/company/elecclub-iit-indore/mycompany/",
       website: "",
       img: elec,
     },
@@ -126,8 +107,7 @@ export default function Hero() {
       post: "Head",
       img: cyn,
       club_insta: "https://www.instagram.com/cynapticsclubiiti/",
-      head_insta: "https://www.instagram.com/_yatharthgupta/",
-      head_lin: "https://www.linkedin.com/in/yatharth-g/",
+      club_lin: "https://www.linkedin.com/company/cynaptics-club-iit-indore/",
       website: "https://cynaptics.vercel.app/",
     },
     {
@@ -135,19 +115,17 @@ export default function Hero() {
       head: "Harsh Sinha",
       post: "Co-Head",
       img: gdsc,
-      club_insta: "https://www.instagram.com/dsc_iiti/",
-      head_insta: "https://www.instagram.com/_rohit_dhanotia_/",
-      head_lin: "https://www.linkedin.com/in/rohit-dhanotia-936345192/",
+      club_insta: "https://www.instagram.com/gdsc_iiti/",
+      club_lin: "https://www.linkedin.com/company/developers-students-club-iit-indore/",
       website: "",
     },
     {
       club_name: "IVDC( Overall and Hardware )",
       head: "Arjun S Nair",
       post: "Head",
-      club_insta: "",
+      club_insta: "https://www.instagram.com/ivdc_iiti/",
       img: ivdc,
-      head_insta: "",
-      head_lin: "",
+      club_lin: "https://www.linkedin.com/company/ivdc-iiti/",
       website: "",
     },
     
@@ -158,8 +136,7 @@ export default function Hero() {
       img: dhruv,
       club_insta:
         "https://instagram.com/metacryst_iiti?igshid=MzNlNGNkZWQ4Mg==",
-      head_insta: "https://instagram.com/imaakash78?igshid=MzNlNGNkZWQ4Mg==",
-      head_lin: "https://www.linkedin.com/in/aakash-sangvikar/",
+      club_lin: "https://www.linkedin.com/company/metacryst-club-iit-indore/",
       website: "http://metacryst.iiti.ac.in/",
     },
     {
@@ -168,8 +145,8 @@ export default function Hero() {
       img: pclub_cs,
       post: "Head",
       club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/purav_biyani/",
-      head_lin: "https://www.linkedin.com/in/purav-biyani/",
+     
+      club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
@@ -178,8 +155,7 @@ export default function Hero() {
       post: "Head",
       img: testImg,
       club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/p_v_sekhar/",
-      head_lin: "https://www.linkedin.com/in/p-v-sekhar-bb4612239/",
+      club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
@@ -188,18 +164,16 @@ export default function Hero() {
       post: "Head",
       img: Ayush,
       club_insta: "https://www.instagram.com/pclub_iiti/",
-      head_insta: "https://www.instagram.com/mihir2294/",
-      head_lin: "https://www.linkedin.com/in/mihir-patel-885193233/",
+      club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
       club_name: "Quantum Computing",
       head: "Mansi Singh",
       img: testImg,
-      post: "",
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
+     
+      club_insta: "https://www.instagram.com/quantum_computing_iiti/",
+      club_lin: "https://www.linkedin.com/company/quantumcomputingiiti/",
       website: "",
     },
     {
@@ -208,8 +182,7 @@ export default function Hero() {
       post: "Head",
       img: robo,
       club_insta: "https://instagram.com/roboticsclub_iitindore",
-      head_insta: "",
-      head_lin: "https://www.linkedin.com/in/akshit-raizada",
+      club_lin: "https://www.linkedin.com/company/robotics-club-iit-indore/",
       website: "",
     },
     
@@ -357,7 +330,7 @@ export default function Hero() {
                       </h2>
                     </div>
                     <div className="flex items-center justify-center pt-2 gap-3 ">
-                      <a href={item.head_lin} target="_blank">
+                      <a href={item.club_lin} target="_blank">
                         <Image
                           src={li_icon}
                           unoptimized

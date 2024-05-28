@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/assests/cult_clubs/hero_bg.jpg";
+import heroImage from "../../../../public/culturalclubs.png";
 // import clubArr from "./clubData";
 
 import Header from "./header";
@@ -31,78 +31,78 @@ import { before } from "node:test";
 export default function Hero() {
   const clubArr = [
     {
-      "website": "",
+      "website": "https://www.instagram.com/dramaticsclubiiti/",
       "title": "Aaina  Club",
       "imageSrc": aaina
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/avana_iiti/",
       "title": "Avana Club",
       "imageSrc": avana
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/cinephiles_iiti/",
       "title": "Cinephiles",
       "imageSrc": cinephiles
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/d_alphazcrew/",
       "title": "D' Alpha Crewz",
       "imageSrc": alphad
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/debsociiti/",
       "title": "The Debating Society",
       "imageSrc": Debsoc
     },
     
     {
-      "website": "",
+      "website": "https://www.instagram.com/ebsbclub_iiti/",
       "title": "EBSB Club",
       "imageSrc": ebsb
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/gamingclubiiti/",
       "title": "Gaming Club",
       "imageSrc": gaming
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/kalakriti_iiti/",
       "title": "Kalakriti Club",
       "imageSrc": kalakriti
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/thelitclub.iiti/",
       "title": "Literary Club",
       "imageSrc": literary
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/mystichues/",
       "title": "Mystic Hues",
       "imageSrc": mystichues
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/themusicclub.iiti/",
       "title": "Music Club",
       "imageSrc": music 
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/prakriti.iiti/",
       "title": "Prakriti",
       "imageSrc": prakriti 
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/thequizclub_iiti/",
       "title": "The Quiz Club",
       "imageSrc": quiz 
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/srijan_iit_indore/",
       "title": "Srijan",
       "imageSrc": srijan 
     },
     {
-      "website": "",
+      "website": "https://www.instagram.com/vlr_iiti/",
       "title": "VLR Club",
       "imageSrc": vlr
     }

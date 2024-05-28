@@ -10,7 +10,7 @@ import {
 export default function HorizontalCard() {
   return (
     <section className="w-full flex-col py-8 items-center bg-[url(/bg8.jpg)] bg-cover bg-center">
-      <h1 className="font-bold text-6xl text-center text-white max-sm:text-4xl">
+      <h1 className="font-bold text-6xl text-center text-red-200 max-sm:text-4xl">
         CLUBS AT IITI
       </h1>
       {/* Card1  */}

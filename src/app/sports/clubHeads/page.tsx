@@ -30,19 +30,17 @@ export default function Hero() {
       head: "Mukul Ghunawat",
       post: "Head",
       img: mukul,
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
-      website: "",
+      club_insta: "#",
+      club_lin: "#",
+      website: "#",
     },
     {
       club_name: "Badminton Club",
       head: "Anshul Rathodia",
       post: "Head",
       img: badminton,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/badmintonclub_iiti/",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     {
@@ -50,9 +48,8 @@ export default function Hero() {
       head: "Saket Thamke",
       post: "Head",
       img: chess,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/theberserkers_iiti/",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     {
@@ -60,9 +57,8 @@ export default function Hero() {
       head: "Yogesh Patidar",
       post: "Head",
       img: cricket,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/cricket_iiti/",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     {
@@ -70,9 +66,8 @@ export default function Hero() {
       head: "Biradhar Saketh",
       post: "Head",
       img: football,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/football_club_iiti/",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     
@@ -81,9 +76,8 @@ export default function Hero() {
       head: "Yash Khare",
       post: "Head",
       img: squash,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "#",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     
@@ -93,9 +87,8 @@ export default function Hero() {
       head: "Aviral Sharma",
       post: "Head",
       img: aviral,
-      club_insta: "",
-      head_insta: "",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/tennis_iiti/",
+      club_lin: "#",
       website: "",
     },
     {
@@ -103,9 +96,8 @@ export default function Hero() {
       head: "Samrudhhee",
       post: "Head",
       img: tt,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
+      club_insta: "https://www.instagram.com/table_tennis_iiti/",
+      club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
     
@@ -196,28 +188,7 @@ export default function Hero() {
               key={index}
             >
               <ScrollReveal>
-                {/* <div className="flex justify-end px-4 pt-4">
-              <button id="dropdownButton" data-dropdown-toggle="dropdown" className="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-                  <span className="sr-only">Open dropdown</span>
-                  <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
-                      <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
-                  </svg>
-              </button>
-        
-              <div id="dropdown" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                  <ul className="py-2" aria-labelledby="dropdownButton">
-                  <li>
-                      <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-                  </li>
-                  <li>
-                      <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-                  </li>
-                  <li>
-                      <a href="#" className="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-                  </li>
-                  </ul>
-              </div>
-              </div> */}
+               
                 <motion.div
                   className="flex flex-col items-center pb-5 cursor-pointer "
                   whileHover={{ scale: 1.05, filter: "brightness(1.2)" }}
@@ -251,16 +222,9 @@ export default function Hero() {
                       </h2>
                     </div>
                     <div className="flex items-center justify-center pt-2 gap-3 ">
-                      <a href={item.head_lin} target="_blank">
-                        <Image
-                          src={li_icon}
-                          unoptimized
-                          alt="Li. Icon"
-                          width={25}
-                        />
-                      </a>
+                     
 
-                      <a href={item.head_insta} target="_blank">
+                      <a href={item.club_insta} target="_blank">
                         <Image
                           src={insta_icon}
                           unoptimized

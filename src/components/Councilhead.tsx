@@ -5,7 +5,7 @@ export default function CounciHeads() {
       <section className=" py-12 bg-[url(/bg4.jpg)] bg-cover">
         <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200">Our Secretaries</h1>
         <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[469px]:grid-cols-1 justify-center w-[80%] mx-auto  ">
-          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]  ">
+          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]  ">
             <img
               src="/President.jpg"
               alt="Prseident Student`s Gymkhana"
@@ -42,7 +42,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="president.sg@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=president.sg@iiti.ac.in"
                   aria-label="Email"
                   className="p-2 rounded-md "
                   target="_blank"
@@ -65,7 +65,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
             <img
               src="GS Cult.jpg"
               alt="GS Cultural Affairs"
@@ -102,7 +102,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="gs.culturals@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.culturals@iiti.ac.in"
                   aria-label="Email"
                   className="p-2 rounded-md "
                   target="_blank"
@@ -125,7 +125,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
             <img
               src="/GS Acad Ug.png"
               alt="GS Academics UG"
@@ -162,7 +162,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="gs.acad.ug@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.acad.ug@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -185,7 +185,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <img
               src="/Gs Hostel.jpg"
               alt="GS Hostel Affairs"
@@ -221,7 +221,7 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="gs.hostel@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.hostel@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -244,7 +244,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
+          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS MAC.jpg"
               alt="GS MAC"
@@ -280,7 +280,7 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="gs.dining@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.dining@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -303,7 +303,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
             <img
               src="/GS SnT.JPG"
               alt="GS Science and Technology"
@@ -339,7 +339,7 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="gs.scitech@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.scitech@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -362,7 +362,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS Acad Pg.jpg"
               alt="GS Academics PG"
@@ -399,7 +399,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="gs.acad.pg@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.acad.pg@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -422,7 +422,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS COA.jpg"
               alt="GS COA"
@@ -459,7 +459,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="gs.coa@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.coa@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md "
@@ -482,7 +482,7 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS Sports.jpg"
               alt=" GS Sports Affairs"
@@ -519,7 +519,7 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="gs.sports@iiti.ac.in"
+                  href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=gs.sports@iiti.ac.in"
                   target="_blank"
                   aria-label="Email"
                   className="p-2 rounded-md 0"
