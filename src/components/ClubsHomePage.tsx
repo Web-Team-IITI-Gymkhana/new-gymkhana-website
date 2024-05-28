@@ -28,7 +28,7 @@ export default function HorizontalCard() {
             className="h-full w-full object-cover"
           />
         </CardHeader>
-        <CardBody placeholder={''} className="bg-red-400">
+        <CardBody placeholder={''} className="">
           <Typography variant="h3" className="mb-2 mt-6 text-red-600" placeholder={''}>
             Technical Clubs
           </Typography>

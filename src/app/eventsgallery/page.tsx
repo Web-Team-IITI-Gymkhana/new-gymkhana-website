@@ -203,19 +203,19 @@ export default function ImageGallery() {
         ],
       },
       
-      {
-        name: "IBCC",
-        src: "/assests/ibcc/ibcc 1.jpg",
-        alt: "IBCC",
-        gallery: [ // Array of Fluxus event images
-          "/assests/ibcc/ibcc 1.jpg",
-          "/assests/ibcc/ibcc 2.jpg",
-          "/assests/ibcc/ibcc 3.jpg",
-          "/assests/ibcc/ibcc 4.jpg",
+      // {
+      //   name: "IBCC",
+      //   src: "/assests/ibcc/ibcc 1.jpg",
+      //   alt: "IBCC",
+      //   gallery: [ // Array of Fluxus event images
+      //     "/assests/ibcc/ibcc 1.jpg",
+      //     "/assests/ibcc/ibcc 2.jpg",
+      //     "/assests/ibcc/ibcc 3.jpg",
+      //     "/assests/ibcc/ibcc 4.jpg",
           
-          // Add more Fluxus event images here...
-        ],
-      },
+      //     // Add more Fluxus event images here...
+      //   ],
+      // },
       {
         name: "JOSH 3.0",
         src: "/assests/josh/josh1.1.jpg",
@@ -280,8 +280,8 @@ export default function ImageGallery() {
 
   return (
     <div className="p-2 my-1 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
-      <div className="h-[8vh] text-center pt-2.5 text-white first-letter:text-orange-600 font-black text-3xl max-[350px]:text-xl">
-        <span className="bg-clip-text text-transparent text-white first-letter:text-orange-600 text-5xl ">
+      <div className="h-[8vh] text-center pt-2.5 text-white  font-black text-3xl max-[350px]:text-xl">
+        <span className="bg-clip-text text-transparent text-yellow-500  text-5xl ">
           EVENTS
         </span>
       </div>

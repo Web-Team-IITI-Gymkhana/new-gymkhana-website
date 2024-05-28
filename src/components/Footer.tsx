@@ -5,26 +5,26 @@ import { Facebook, Instagram, LinkedIn } from "@mui/icons-material";
 import "@fontsource/poppins";
 function Footer() {
   return (
-    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 bg-white border-t-2 border-black ">
+    <div className="font-poppins flex flex-col w-full text-base px-6 sm:px-12 lg:px-24 py-4 bg-black border-t-2 border-white text-white ">
       <div className="flex flex-col xl:flex-row items-center justify-between my-2">
         <div className="flex flex-row items-center gap-6">
           <div>
             <Image
             className="bg-blend-multipy"
-              src="/IITI3.jpg"
+              src="/main_logo.png"
               width={200}
               height={200}
-              alt="Picture of the author"
+              alt="Gymkhana Logo"
             />
           </div>
-          <div className="text-2xl sm:text-3xl font-extrabold w-fit">
+          <div className="text-2xl sm:text-3xl font-extrabold w-fit ">
             Student's Gymkhana
           </div>
         </div>
         <div className="flex max-sm:flex-col flex-row xl:h-24 max-sm:items-center">
           <div className="mx-2 my-2 xl:my-0 lg:mx-6 xl:mx-12">
             <h1 className="text-2xl sm:text-3xl font-bold text-center">Location</h1>
-            <div className="flex flex-row w-full ">
+            <div className="flex flex-row w-full  ">
               <span className="inline mr-1 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="w-full border-[1px] border-gray-500" />
+      <hr className="w-full border-[1px] border-white" />
       
       <div className="xl:grid grid-cols-3 my-4 w-full items-center">
         <p className="xl:text-left text-center col-span-2 pt-1">
@@ -74,9 +74,9 @@ function Footer() {
         </p>
 
         <span className="justify-self-end flex flex-row gap-6 w-full justify-center xl:justify-end">
-          <a href="https://www.instagram.com/gymkhana_iiti/" target='_blank'> <Instagram sx={{ color: "#374151", fontSize: 40 }} /></a>
-          <a href='https://www.facebook.com/studentgym/' target='_blank'><Facebook sx={{ color: "#374151", fontSize: 40 }} /></a>
-          <a href="https://www.linkedin.com/company/students-gymkhana-iit-indore/" target='_blank'><LinkedIn sx={{ color: "#374151", fontSize: 40 }} /></a>
+          <a href="https://www.instagram.com/gymkhana_iiti/" target='_blank'> <Instagram sx={{ color: "white", fontSize: 40 }} /></a>
+          <a href='https://www.facebook.com/studentgym/' target='_blank'><Facebook sx={{ color: "white", fontSize: 40 }} /></a>
+          <a href="https://www.linkedin.com/company/students-gymkhana-iit-indore/" target='_blank'><LinkedIn sx={{ color: "white", fontSize: 40 }} /></a>
         </span>
       </div>
     </div>
