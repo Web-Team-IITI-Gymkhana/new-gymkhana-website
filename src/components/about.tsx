@@ -2,9 +2,9 @@ import Image from "next/image"
 export default function bout(){
     return(
         <section className="bg-[url(/bg2.jpg)] bg-cover bg-center text-white px-12 md:px-48 py-8 md:py-8">
-            <h1 className="text-6xl font-sans font-bold my-4 text-center">About Us</h1>
+            <h1 className="text-6xl font-sans font-bold my-4 text-center max-sm:text-4xl">About Us</h1>
           <div className="flex flex-row flex-wrap-reverse">
-            <div className="min-w-[50%]  flex flex-col items-center mx-auto">
+            <div className="min-w-[50%]  flex flex-col items-center mx-auto pb-4">
             
             <p className="max-w-3xl text-2xl my-12 text-justify max-sm:text-xl">
               A major attraction of IITI is its eminent faculty members and

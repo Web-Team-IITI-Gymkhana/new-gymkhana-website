@@ -6,10 +6,11 @@ import {
   Button,
 } from "@material-tailwind/react";
 
+
 export default function HorizontalCard() {
   return (
-    <section className="w-full flex-col py-6 items-center bg-[url(/bg8.jpg)] bg-cover">
-      <h1 className="font-bold text-6xl text-center text-white">
+    <section className="w-full flex-col py-8 items-center bg-[url(/bg8.jpg)] bg-cover bg-center">
+      <h1 className="font-bold text-6xl text-center text-white max-sm:text-4xl">
         CLUBS AT IITI
       </h1>
       {/* Card1  */}
@@ -21,12 +22,14 @@ export default function HorizontalCard() {
         >
           <img
             src="/technicalclubs.png"
+            width={100}
+            height={100}
             alt="card-image"
             className="h-full w-full object-cover"
           />
         </CardHeader>
-        <CardBody placeholder={''} className="">
-          <Typography variant="h3" className="mb-2 mt-6 text-red-800" placeholder={''}>
+        <CardBody placeholder={''} className="bg-red-400">
+          <Typography variant="h3" className="mb-2 mt-6 text-red-600" placeholder={''}>
             Technical Clubs
           </Typography>
           <Typography color="gray" className="mb-8 font-normal text-lg" placeholder={''}>
@@ -37,7 +40,7 @@ export default function HorizontalCard() {
             industry readiness.
           </Typography>
           <a href="/club/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-900" placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600" placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,11 +70,13 @@ export default function HorizontalCard() {
           <img
             src="/culturalclubs.png"
             alt="card-image"
+            width={100}
+            height={100}
             className="h-full w-full object-cover"
           />
         </CardHeader>
         <CardBody placeholder={''}>
-          <Typography variant="h3" className="mb-2 mt-6 text-red-800" placeholder={''}>
+          <Typography variant="h3" className="mb-2 mt-6 text-red-600" placeholder={''}>
             Cultural Clubs
           </Typography>
           <Typography color="gray" className="mb-8 font-normal text-lg" placeholder={''}>
@@ -81,7 +86,7 @@ export default function HorizontalCard() {
             campus life and personal growth.
           </Typography>
           <a href="/cult/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-900"  placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600"  placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,11 +116,13 @@ export default function HorizontalCard() {
           <img
             src="/sportsclubs.jpg"
             alt="card-image"
+            width={100}
+            height={100}
             className="h-full w-full object-cover"
           />
         </CardHeader>
         <CardBody placeholder={''}>
-          <Typography variant="h3"  className="mb-2 mt-6 text-red-800" placeholder={''}>
+          <Typography variant="h3"  className="mb-2 mt-6 text-red-600" placeholder={''}>
             Sports Clubs
           </Typography>
           <Typography color="gray" className="mb-8 font-normal text-lg" placeholder={''}>
@@ -125,7 +132,7 @@ export default function HorizontalCard() {
             enhancing their physical health and sportsmanship.
           </Typography>
           <a href="/sports/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-900" placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600" placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"

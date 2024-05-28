@@ -19,6 +19,7 @@ import quantum from "../../../../public/assests/clubs/logo/quantum computing.jpg
 import robo from "../../../../public/assests/clubs/logo/ROBOTICS CLUB_.jpg";
 import snt from "../../../../public/assests/clubs/logo/Science and technology council 23-24 20230515_112204 (1) (1).jpg";
 import astro from "../../../../public/assests/clubs/logo/The_Astronomy_Club.jpg";
+import aeromodelling from "../../../../public/assests/clubs/logo/Aeromodelling .jpg";
 import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
 
 import HeadsPage from "../clubHeads/page";
@@ -28,75 +29,79 @@ import { before } from "node:test";
 export default function Hero() {
   const clubArr = [
     {
-      "website":"",
-      "title": "CAE",
-      "imageSrc": cae,
-    },
-    {
-      "website":"",
-      "title": "CFA",
-      "imageSrc": cfa,
-    },
-    {
-      "website":"",
-      "title": "Concreate",
-      "imageSrc": concreate,
-    },
-    {
-      "website":"https://cynaptics.vercel.app/",
-      "title": "Cynaptics",
-      "imageSrc": cyn,
-    },
-    {
-      "website":"",
-      "title": "Electronics Club",
-      "imageSrc": electr,
-    },
-    {
-      "website":"",
-      "title": "GDSC",
-      "imageSrc": gdsc,
-    },
-    {
-      "website":"",
-      "title": "IVDC-Intelligent Vehicle Design Club",
-      "imageSrc": ivdc,
-    },
-    {
-      "website":"http://metacryst.iiti.ac.in/",
-      "title": "Metacryst",
-      "imageSrc": meta,
-    },
-    {
-      "website":"http://progclub.iiti.ac.in/",
-      "title": "The Programming Club",
-      "imageSrc": pclub,
-    },
-    {
-      "website":"",
-      "title": "Quantum Computing",
-      "imageSrc": quantum,
-    },
-    {
-      "website":"",
-      "title": "Gymkhana Web Team",
-      "imageSrc": webgym,
-    },
-    {
-      "website":"",
-      "title": "Robotics Club",
-      "imageSrc": robo,
-    },
-    {
-      "website":"",
+      "more":"",
       "title": "Astronomy Club",
       "imageSrc": astro,
     },
     {
-      "website":"",
-      "title": "Science and Technology Council",
-      "imageSrc": snt,
+      "more":"",
+      "title": "The Aeromodelling Club",
+      "imageSrc":aeromodelling ,
+
     },
+    {
+      "more":"",
+      "title": "CAE",
+      "imageSrc": cae,
+    },
+    {
+      "more":"",
+      "title": "CFA",
+      "imageSrc": cfa,
+    },
+    {
+      "more":"",
+      "title": "Concreate",
+      "imageSrc": concreate,
+    },
+    {
+      "more":"https://cynaptics.vercel.app/",
+      "title": "Cynaptics",
+      "imageSrc": cyn,
+    },
+    {
+      "more":"",
+      "title": "Electronics Club",
+      "imageSrc": electr,
+    },
+    {
+      "more":"",
+      "title": "GDSC",
+      "imageSrc": gdsc,
+    },
+    {
+      "more":"",
+      "title": "Gymkhana Web Team",
+      "imageSrc": webgym,
+    },
+    {
+      "more":"",
+      "title": "IVDC-Intelligent Vehicle Design Club",
+      "imageSrc": ivdc,
+    },
+    {
+      "more":"http://metacryst.iiti.ac.in/",
+      "title": "Metacryst",
+      "imageSrc": meta,
+    },
+    {
+      "more":"http://progclub.iiti.ac.in/",
+      "title": "The Programming Club",
+      "imageSrc": pclub,
+    },
+    {
+      "more":"",
+      "title": "Quantum Computing",
+      "imageSrc": quantum,
+    },
+   
+    {
+      "more":"",
+      "title": "Robotics Club",
+      "imageSrc": robo,
+    },
+    
+   
     
     
   ];
@@ -146,7 +151,8 @@ export default function Hero() {
         <ScrollReveal>
           <div className="flex items-center justify-center">
             <motion.h1
-              className="text-white font-bold sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r xs:text-base md:text-xl md:w-[21vw] sm:h-[10.25vh] md:h-[8.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins "
+              className="text-white font-bold sm:mt-10 mt-5 sm:mb-0 mb-[-15vw] text-md uppercase sm:p-4 rounded-md text-center bg-gradient-to-r xs:text-base md:text-xl md:w-[21vw] sm:h-[10.25vh] md:h-[8.25vh]  from-indigo-600 to-sky-400 p-3 font-poppins " 
+            //   
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
@@ -174,15 +180,21 @@ export default function Hero() {
               lg:my-[-3vh]
               md:mx-[2vw]
               md:my-[1vw]
-              z-10 bg-transparent border-black pt-20 xs:h-[40vw]
-              xs:w-[20vh]
-              xs:m-3
-              xs:mb-8
-              xxs:m-4
-              xxs:h-[40vw]
-              xxs:w-[25vw]
-              xxs:mb-[20vw]
-              sm:mb-6 scroll-smooth`} //changed.........
+              z-10 bg-transparent border-black pt-20 
+              xs:h-[30vw]
+              xs:w-[30vh]
+              xs:m-12
+              xxs:m-14
+              xxs:h-[50vw]
+              xxs:w-[40vw]
+              xxs:mb-[22vw]
+              sm:pb-6 scroll-smooth`} //changed.........
+
+              // className={`w-[50vh] h-[25vw]  sm:w-[55vh] md:w-[80vh] sm:h-[40vw] md:h-[44vw] lg:w-[50vh] lg:h-[30vw] z-10 bg-transparent border-black pt-20 xs:h-[35vw] xs:w-[40vw]scroll-smooth`}
+
+              //newwwwwwww
+
+
               key={index}
             >
 
@@ -210,15 +222,27 @@ export default function Hero() {
                   </ul>
               </div>
               </div> */}
-                <div className="flex flex-col items-center pb-10 overflow-x-hidden w-full">
+                <div 
+                // className="flex flex-col items-center pb-10 overflow-x-hidden w-full"
+
+                className="flex flex-col items-center pb-10"
+
+                //newwwwwwwwwwwww
+                
+                >
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
                     className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
+                    // className="img-cont xs:w-9 lg:w-40 lg:h-40 sm:w-60 sm:h-60 md:w-45 md:h-45 md:flex-auto md:space-x-9 sm:flex-1 flex items-center justify-center lg:mb-5 sm:m-4 md:m-2 cursor-pointer hover:shadow-xl "
+                      // newwwww
+
                     whileTap={{ scale: 0.9, filter: "brightness(0.85)" }}
                   >
                     <Image
-                      className="lg:w-[20vw] sm:w-[18vw] xxs:[10vw] sm:mt-3 lg:mt-2 md:border-b-5 sm:pb-5 md:pb-0 border-sky-600 "
+                      // className="lg:w-[20vw] sm:w-[18vw] xxs:[10vw] sm:mt-3 lg:mt-2 md:border-b-5 sm:pb-5 md:pb-0 border-sky-600 "
+                      className=" lg:w-[100%] lg:h-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] xxs:w-[70%] xxs:h-[70%] md:mt-5 md:h-[90%] sm:mt-3 xxs:mt-10 border-sky-600"
+                      // newwwww
                       src={item.imageSrc.src}
                       alt={item.title}
                       width={134}
@@ -227,22 +251,35 @@ export default function Hero() {
                     />
                     
                   </motion.div>
-                  <div className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center w-full overflow-x-hidden ">
-                    <h5 className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white">
+                  <div 
+                  // className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:h-[2vw]  flex items-center justify-center w-full overflow-x-hidden "
+                  className="heading-cont lg:w-60 lg:h-12 sm:w-40 sm:h-8 md:w-50 md:h-10 xxs:w-40 xxs:h-10 flex items-center justify-center "
+                  
+                  >
+                    <h5 
+                    // className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white"
+                    className="mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white"
+                    >
                       {item.title}
                     </h5>
                   </div>
-                  <div className="w-50 h-12 sm:mb-10 xxs:mb-20 sm:mt-1 xxs:mt-5 flex items-center justify-center cursor-pointer">
+                  <div 
+                  // className="w-50 h-12 sm:mb-10 xxs:mb-20 sm:mt-1 xxs:mt-5 flex items-center justify-center cursor-pointer"
+                  className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer border-b-5 border-blue-500 "
+                  >
                     <motion.button
-                      className="sm:px-2 sm:py-1  sm:text-sm md:text-md md:px-4 md:py-2  scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 
-                      hover:from-pink-600 rounded-lg cursor-pointer  scroll-smooth 
-                      xxs:text-xs
-                      xxs:py-1 xxs:px-1
+                      // className="sm:px-2 sm:py-1  sm:text-sm md:text-md md:px-4 md:py-2  scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 
+                      // hover:from-pink-600 rounded-lg cursor-pointer  scroll-smooth 
+                      // xxs:text-xs
+                      // xxs:py-1 xxs:px-1
                       
-                      "
+                      // "
+                      
+                      className="px-4 py-2 scale-1.1 xxs:text-xs sm:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-lg cursor-pointer "
+                      
                       whileTap={{ filter: "brightness(1.2)" }}
                     >
-                      <a href={item.website} target="_blank">See more</a>
+                      <a href={item.more} target="_blank">See more</a>
                     </motion.button>
                   </div>
                 </div>

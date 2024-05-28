@@ -31,6 +31,7 @@ import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
 // import snt from "../../../../public/assests/clubHeads/photos/";
 import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.png";
 import aero from "../../../../public/assests/clubHeads/photos/mrunal.jpeg";
+import Ayush from "../../../../public/assests/clubHeads/photos/Ayush.png";
 
 
 // import test, { before } from "node:test";
@@ -45,6 +46,18 @@ export default function Hero() {
       club_insta: "https://instagram.com/aeroclub_iiti?igshid=MzNlNGNkZWQ4Mg==",
       head_insta: "https://instagram.com/soham_iit_i?igshid=NGExMmI2YTkyZg==",
       head_lin: "https://www.linkedin.com/in/soham-mondal-4795b6243",
+      website: "",
+    },
+    {
+      club_name: "Astronomy",
+      head: "Keshav Aggarval",
+      post: "Head",
+      img: astro,
+      club_insta:
+        "https://instagram.com/astronomyclub_iiti?igshid=MzRlODBiNWFlZA==",
+      head_insta:
+        "https://instagram.com/thedarkernebula?igshid=MzNlNGNkZWQ4Mg==",
+      head_lin: "https://www.linkedin.com/in/divyam-pandey-bbb791228",
       website: "",
     },
     {
@@ -67,16 +80,16 @@ export default function Hero() {
       head_lin: "https://www.linkedin.com/in/tanisha-sahu-197882232/",
       website: "",
     },
-    {
-      club_name: "CFA(Consulting Dept.)",
-      head: "Neha Jadhav",
-      post: "Head",
-      img: testImg,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta: "",
-      head_lin: "linkedin.com/in/neha-sanjay-jadhav",
-      website: "",
-    },
+    // {
+    //   club_name: "CFA(Consulting Dept.)",
+    //   head: "Neha Jadhav",
+    //   post: "Head",
+    //   img: testImg,
+    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
+    //   head_insta: "",
+    //   head_lin: "linkedin.com/in/neha-sanjay-jadhav",
+    //   website: "",
+    // },
     {
       club_name: "CFA(Finance Dept.)",
       head: "Shivam Sharma",
@@ -109,7 +122,7 @@ export default function Hero() {
     },
     {
       club_name: "Cynaptics",
-      head: "Yatharth Gupta",
+      head: "Arnav Jain",
       post: "Head",
       img: cyn,
       club_insta: "https://www.instagram.com/cynapticsclubiiti/",
@@ -120,7 +133,7 @@ export default function Hero() {
     {
       club_name: "GDSC",
       head: "Harsh Sinha",
-      post: "Head",
+      post: "Co-Head",
       img: gdsc,
       club_insta: "https://www.instagram.com/dsc_iiti/",
       head_insta: "https://www.instagram.com/_rohit_dhanotia_/",
@@ -151,7 +164,7 @@ export default function Hero() {
     },
     {
       club_name: "Pclub(Cybersecurity division)",
-      head: "Purav Biyani",
+      head: "Siddhesh Waje",
       img: pclub_cs,
       post: "Head",
       club_insta: "https://www.instagram.com/pclub_iiti/",
@@ -161,9 +174,9 @@ export default function Hero() {
     },
     {
       club_name: "Pclub(CP division)",
-      head: "P. V. Sekhar",
+      head: "Naren Sai",
       post: "Head",
-      img: pclub_cp,
+      img: testImg,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       head_insta: "https://www.instagram.com/p_v_sekhar/",
       head_lin: "https://www.linkedin.com/in/p-v-sekhar-bb4612239/",
@@ -171,9 +184,9 @@ export default function Hero() {
     },
     {
       club_name: "Pclub(Software development division)",
-      head: "Mihir Patel",
+      head: "Ayush Awasthi",
       post: "Head",
-      img: pclub_dev,
+      img: Ayush,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       head_insta: "https://www.instagram.com/mihir2294/",
       head_lin: "https://www.linkedin.com/in/mihir-patel-885193233/",
@@ -181,7 +194,7 @@ export default function Hero() {
     },
     {
       club_name: "Quantum Computing",
-      head: "",
+      head: "Mansi Singh",
       img: testImg,
       post: "",
       club_insta: "",
@@ -199,31 +212,14 @@ export default function Hero() {
       head_lin: "https://www.linkedin.com/in/akshit-raizada",
       website: "",
     },
-    {
-      club_name: "Robotics ",
-      head: "Manvendra Tripathi",
-      post: "Co-Head",
-      img: testImg,
-      club_insta: "https://instagram.com/roboticsclub_iitindore",
-      head_insta: "",
-      head_lin: "",
-      website: "",
-    },
-    {
-      club_name: "Astronomy",
-      head: "Divyam Pandey",
-      post: "Head",
-      img: astro,
-      club_insta:
-        "https://instagram.com/astronomyclub_iiti?igshid=MzRlODBiNWFlZA==",
-      head_insta:
-        "https://instagram.com/thedarkernebula?igshid=MzNlNGNkZWQ4Mg==",
-      head_lin: "https://www.linkedin.com/in/divyam-pandey-bbb791228",
-      website: "",
-    },
+    
+    
   ];
   return (
     <>
+    <div className="sm:hidden block h-[50vw] bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%">
+
+    </div>
       <div
         id="hero-bg"
         style={{
@@ -335,10 +331,10 @@ export default function Hero() {
                 >
                   <motion.div
                     whileTap={{ scale: 0.9, filter: "brightness(0.85)" }}
-                    className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40 "
+                    className="img-cont lg:w-50 lg:h-50 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40 "
                   >
                     <Image
-                      className=" lg:w-[20vw] sm:w-[20vw] xxs:h-[25vw] sm:mt-3 lg:mt-2 sm:pb-5 md:pb-0 border-2 border-indigo-500 md:mt-5 md:h-[90%] shadow-2xl"
+                      className=" lg:w-[20vw] sm:w-[20vw] xxs:h-[25vw] sm:mt-1 lg:mt-1 sm:pb-2 md:pb-0 border-2 border-indigo-500 md:mt-1 md:h-[90%] shadow-2xl"
                       src={item.img.src}
                       alt={item.head}
                       width={134}

@@ -74,9 +74,9 @@ function Footer() {
         </p>
 
         <span className="justify-self-end flex flex-row gap-6 w-full justify-center xl:justify-end">
-          <a href="https://www.instagram.com/gymkhana_iiti/"> <Instagram sx={{ color: "#374151", fontSize: 40 }} /></a>
-          <a href='https://www.facebook.com/studentgym/'><Facebook sx={{ color: "#374151", fontSize: 40 }} /></a>
-          <a href="https://www.linkedin.com/company/students-gymkhana-iit-indore/"><LinkedIn sx={{ color: "#374151", fontSize: 40 }} /></a>
+          <a href="https://www.instagram.com/gymkhana_iiti/" target='_blank'> <Instagram sx={{ color: "#374151", fontSize: 40 }} /></a>
+          <a href='https://www.facebook.com/studentgym/' target='_blank'><Facebook sx={{ color: "#374151", fontSize: 40 }} /></a>
+          <a href="https://www.linkedin.com/company/students-gymkhana-iit-indore/" target='_blank'><LinkedIn sx={{ color: "#374151", fontSize: 40 }} /></a>
         </span>
       </div>
     </div>

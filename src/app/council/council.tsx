@@ -10,7 +10,7 @@ export default function Council(){
             <div className="flex flex-col p-2 w-[40%] max-[950px]:w-[100%]">
             <div className="h-[25vh] max-[950px]:h-0"></div>
             <div className="p-2 text-center items-center overflow-hidden  max-[950px]:h-auto ">
-            <p className="font-extrabold text-6xl mt-12">COUNCILS</p>
+            <p className="font-extrabold text-6xl mt-12 max-sm:text-4xl">COUNCILS</p>
             <p className="font-normal text-lg mt-6 px-4 text-gray-700">The four Councils along with cells carry out the executive responsibilities of the Students’ Gymkhana. Each council executes affairs pertaining to an overarching purpose. The Councils comprise Clubs, Hobby Groups, and Institute Teams, which cater to specific activities.</p>
             </div>
             <div className="h-[25vh] max-[950px]:h-0"></div>

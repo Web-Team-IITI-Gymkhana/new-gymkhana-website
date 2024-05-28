@@ -18,56 +18,38 @@ import cricket from "../../../../public/assests/sports_head/cricket.jpg";
 import football from "../../../../public/assests/sports_head/football.jpg";
 import squash from "../../../../public/assests/sports_head/squash.jpg";
 import tt from "../../../../public/assests/sports_head/tt.jpg";
+import aviral from "../../../../public/assests/sports_head/Aviral.jpg";
+import mukul from "../../../../public/assests/sports_head/mukul.jpg";
 
 // import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
+      club_name: "Athletics Club",
+      head: "Mukul Ghunawat",
+      post: "Head",
+      img: mukul,
+      club_insta: "",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
+      club_name: "Badminton Club",
+      head: "Anshul Rathodia",
+      post: "Head",
+      img: badminton,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
+    },
+    {
       club_name: "Chess Club",
       head: "Saket Thamke",
       post: "Head",
       img: chess,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
-      website: "http://people.iiti.ac.in/~sports/",
-    },
-    {
-      club_name: "Football Club",
-      head: "Biradhar Saketh",
-      post: "Head",
-      img: football,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
-      website: "http://people.iiti.ac.in/~sports/",
-    },
-    {
-      club_name: "Table Tennis Club",
-      head: "Samrudhhee",
-      post: "Head",
-      img: tt,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
-      website: "http://people.iiti.ac.in/~sports/",
-    },
-    {
-      club_name: "Squash Club",
-      head: "Yash Khare",
-      post: "Head",
-      img: squash,
-      club_insta: "",
-      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
-      head_lin: "",
-      website: "http://people.iiti.ac.in/~sports/",
-    },
-    {
-      club_name: "Badminton Club",
-      head: "Anshul",
-      post: "Head",
-      img: badminton,
       club_insta: "",
       head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
       head_lin: "",
@@ -83,9 +65,55 @@ export default function Hero() {
       head_lin: "",
       website: "http://people.iiti.ac.in/~sports/",
     },
+    {
+      club_name: "Football Club",
+      head: "Biradhar Saketh",
+      post: "Head",
+      img: football,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
+    },
+    
+    {
+      club_name: "Squash Club",
+      head: "Yash Khare",
+      post: "Head",
+      img: squash,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
+    },
+    
+    
+    {
+      club_name: "Tennis Club",
+      head: "Aviral Sharma",
+      post: "Head",
+      img: aviral,
+      club_insta: "",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
+      club_name: "Table Tennis Club",
+      head: "Samrudhhee",
+      post: "Head",
+      img: tt,
+      club_insta: "",
+      head_insta: "https://www.instagram.com/sports_iit_indore/?hl=en",
+      head_lin: "",
+      website: "http://people.iiti.ac.in/~sports/",
+    },
+    
   ];
   return (
     <>
+    <div className="sm:hidden block h-[50vw] bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%">
+</div>
       <div
         id="hero-bg"
         style={{

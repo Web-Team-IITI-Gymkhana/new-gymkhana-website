@@ -18,28 +18,28 @@ function NavbarComponent() {
           <Button className="text-2xl  max-sm:text-lg  text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">HOME</Button>
         </Link>
 
-        <Dropdown className="bg-black bg-opacity-35 ">
+        <Dropdown className="bg-black bg-opacity-35 text-2xl">
           <DropdownTrigger>
             <Button className="text-2xl   max-sm:text-lg  text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">CLUBS</Button>
           </DropdownTrigger>
           <DropdownMenu className="text-white">
             <DropdownItem key="tech">
               <Link href="/club/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
                   TECHNICAL CLUBS
                 </Button>
               </Link>
             </DropdownItem>
             <DropdownItem key="sports">
               <Link href="/sports/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300  hover:transition-all">
                   SPORTS CLUBS
                 </Button>
               </Link>
             </DropdownItem>
             <DropdownItem key="cult">
               <Link href="/cult/clubs">
-                <Button className="text-base text-white bg-opacity-0 hover:text-black hover:transition-all">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
                   CULTURAL CLUBS
                 </Button>
               </Link>
@@ -51,7 +51,7 @@ function NavbarComponent() {
           <Button className="text-2xl  max-sm:text-lg text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">EVENTS</Button>
         </Link>
         <Link href="/faq">
-          <Button className="text-2xl  max-sm:text-lg  text-white font-semibold bg-opacity-0 ">FAQs</Button>
+          <Button className="text-2xl  max-sm:text-lg  text-white font-semibold bg-opacity-0 px-6 max-sm:px-4 ">FAQs</Button>
         </Link>
       </span>
     </div>
