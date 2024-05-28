@@ -12,6 +12,8 @@ import cc from "../../../../public/assests/sports/cc.jpg";
 import tc from "../../../../public/assests/sports/tc.jpg";
 import vb from "../../../../public/assests/sports/vb.png";
 import tt from "../../../../public/assests/sports/tt.png";
+import chess from "../../../../public/assests/sports/chess.jpg";
+import football from "../../../../public/assests/sports/football.jpg";
 
 import HeadsPage from "../clubHeads/page";
 
@@ -31,8 +33,18 @@ export default function Hero() {
     },
     {
       "website":"",
+      "title": "Chess Club",
+      "imageSrc": chess,
+    },
+    {
+      "website":"",
       "title": "Cricket Club",
       "imageSrc": cc,
+    },
+    {
+      "website":"",
+      "title": "Football club",
+      "imageSrc": football,
     },
     {
       "website":"https://cynaptics.vercel.app/",
@@ -41,13 +53,13 @@ export default function Hero() {
     },
     {
       "website":"",
-      "title": "Volleyball Club",
-      "imageSrc": vb,
+      "title": "Table Tennis Club",
+      "imageSrc": tt,
     },
     {
       "website":"",
-      "title": "Table Tennis Club",
-      "imageSrc": tt,
+      "title": "Volleyball Club",
+      "imageSrc": vb,
     },
     
   ];

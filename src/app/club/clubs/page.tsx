@@ -19,6 +19,7 @@ import quantum from "../../../../public/assests/clubs/logo/quantum computing.jpg
 import robo from "../../../../public/assests/clubs/logo/ROBOTICS CLUB_.jpg";
 import snt from "../../../../public/assests/clubs/logo/Science and technology council 23-24 20230515_112204 (1) (1).jpg";
 import astro from "../../../../public/assests/clubs/logo/The_Astronomy_Club.jpg";
+import aeromodelling from "../../../../public/assests/clubs/logo/Aeromodelling .jpg";
 import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
 
 import HeadsPage from "../clubHeads/page";
@@ -28,75 +29,79 @@ import { before } from "node:test";
 export default function Hero() {
   const clubArr = [
     {
-      "website":"",
-      "title": "CAE",
-      "imageSrc": cae,
-    },
-    {
-      "website":"",
-      "title": "CFA",
-      "imageSrc": cfa,
-    },
-    {
-      "website":"",
-      "title": "Concreate",
-      "imageSrc": concreate,
-    },
-    {
-      "website":"https://cynaptics.vercel.app/",
-      "title": "Cynaptics",
-      "imageSrc": cyn,
-    },
-    {
-      "website":"",
-      "title": "Electronics Club",
-      "imageSrc": electr,
-    },
-    {
-      "website":"",
-      "title": "GDSC",
-      "imageSrc": gdsc,
-    },
-    {
-      "website":"",
-      "title": "IVDC-Intelligent Vehicle Design Club",
-      "imageSrc": ivdc,
-    },
-    {
-      "website":"http://metacryst.iiti.ac.in/",
-      "title": "Metacryst",
-      "imageSrc": meta,
-    },
-    {
-      "website":"http://progclub.iiti.ac.in/",
-      "title": "The Programming Club",
-      "imageSrc": pclub,
-    },
-    {
-      "website":"",
-      "title": "Quantum Computing",
-      "imageSrc": quantum,
-    },
-    {
-      "website":"",
-      "title": "Gymkhana Web Team",
-      "imageSrc": webgym,
-    },
-    {
-      "website":"",
-      "title": "Robotics Club",
-      "imageSrc": robo,
-    },
-    {
-      "website":"",
+      "more":"",
       "title": "Astronomy Club",
       "imageSrc": astro,
     },
     {
-      "website":"",
-      "title": "Science and Technology Council",
-      "imageSrc": snt,
+      "more":"",
+      "title": "The Aeromodelling Club",
+      "imageSrc":aeromodelling ,
+
     },
+    {
+      "more":"",
+      "title": "CAE",
+      "imageSrc": cae,
+    },
+    {
+      "more":"",
+      "title": "CFA",
+      "imageSrc": cfa,
+    },
+    {
+      "more":"",
+      "title": "Concreate",
+      "imageSrc": concreate,
+    },
+    {
+      "more":"https://cynaptics.vercel.app/",
+      "title": "Cynaptics",
+      "imageSrc": cyn,
+    },
+    {
+      "more":"",
+      "title": "Electronics Club",
+      "imageSrc": electr,
+    },
+    {
+      "more":"",
+      "title": "GDSC",
+      "imageSrc": gdsc,
+    },
+    {
+      "more":"",
+      "title": "Gymkhana Web Team",
+      "imageSrc": webgym,
+    },
+    {
+      "more":"",
+      "title": "IVDC-Intelligent Vehicle Design Club",
+      "imageSrc": ivdc,
+    },
+    {
+      "more":"http://metacryst.iiti.ac.in/",
+      "title": "Metacryst",
+      "imageSrc": meta,
+    },
+    {
+      "more":"http://progclub.iiti.ac.in/",
+      "title": "The Programming Club",
+      "imageSrc": pclub,
+    },
+    {
+      "more":"",
+      "title": "Quantum Computing",
+      "imageSrc": quantum,
+    },
+   
+    {
+      "more":"",
+      "title": "Robotics Club",
+      "imageSrc": robo,
+    },
+    
+   
     
     
   ];
@@ -274,7 +279,7 @@ export default function Hero() {
                       
                       whileTap={{ filter: "brightness(1.2)" }}
                     >
-                      <a href={item.website} target="_blank">See more</a>
+                      <a href={item.more} target="_blank">See more</a>
                     </motion.button>
                   </div>
                 </div>

@@ -19,10 +19,13 @@ import cinephiles from "../../../../public/assests/cult_clubs_heads/cinephiles.j
 import debsoc from "../../../../public/assests/cult_clubs_heads/debsoc.jpg";
 import ebsb from "../../../../public/assests/cult_clubs_heads/ebsb.jpg";
 import game from "../../../../public/assests/cult_clubs_heads/game.jpg";
-import liter from "../../../../public/assests/cult_clubs_heads/liter.jpg";
+import kalakriti from "../../../../public/assests/cult_clubs_heads/liter.jpg";
 import music from "../../../../public/assests/cult_clubs_heads/music.jpg";
 import mystic from "../../../../public/assests/cult_clubs_heads/mystic.jpg";
 import srijan from "../../../../public/assests/cult_clubs_heads/srijan.jpg";
+import vlr from "../../../../public/assests/cult_clubs_heads/vlr.jpeg";
+import literary from "../../../../public/assests/cult_clubs_heads/literary.jpeg";
+import prakriti from "../../../../public/assests/cult_clubs_heads/prakriti.jpg";
 
 // import test, { before } from "node:test";
 
@@ -38,16 +41,7 @@ export default function Hero() {
       head_lin: "",
       website: "",
     },
-    {
-      club_name: "D Alpha Crewz",
-      head: "Anand Prakash",
-      post: "Head",
-      img: alpha,
-      club_insta: "https://www.instagram.com/d_alpha2crew",
-      head_insta: "",
-      head_lin: "",
-      website: "",
-    },
+    
     {
       club_name: "Avana",
       head: "Aditya Girge",
@@ -69,8 +63,18 @@ export default function Hero() {
       website: "",
     },
     {
+      club_name: "D Alpha Crewz",
+      head: "Anand Prakash",
+      post: "Head",
+      img: alpha,
+      club_insta: "https://www.instagram.com/d_alpha2crew",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
       club_name: "Debsoc",
-      head: "", // Leave empty as info not provided
+      head: "Dushyant Chaudhari", 
       post: "Head",
       img: debsoc,
       club_insta: "",
@@ -80,7 +84,7 @@ export default function Hero() {
     },
     {
       club_name: "EBSB",
-      head: "", // Leave empty as info not provided
+      head: "Tejaswini Pappala", 
       post: "Head",
       img: ebsb,
       club_insta: "",
@@ -99,10 +103,10 @@ export default function Hero() {
       website: "",
     },
     {
-      club_name: "Literary Club",
-      head: "Chirag Sonwane", // Leave empty as info not provided
+      club_name: "Kalakriti",
+      head: "Chirag Sonwane", 
       post: "Head",
-      img: liter,
+      img: kalakriti,
       club_insta: "",
       head_insta: "",
       head_lin: "",
@@ -129,6 +133,16 @@ export default function Hero() {
       website: "",
     },
     {
+      club_name: "Prakriti Club",
+      head: "Nehansh Mankad",
+      post: "Head",
+      img: prakriti,
+      club_insta: "",
+      head_insta: "",
+      head_lin: "",
+      website: "",
+    },
+    {
       club_name: "Srijan Club",
       head: "Raina Tathed",
       post: "Head",
@@ -136,6 +150,24 @@ export default function Hero() {
       club_insta: "https://www.instagram.com/sriian_indore",
       head_insta: "",
       head_lin: "https://www.linkedin.com/company/srijan_iit",
+    },
+    {
+      club_name: "VLR",
+      head: "Hrishikesh Jawale",
+      post: "Head",
+      img: vlr,
+      club_insta: "",
+      head_insta: "",
+      head_lin: "",
+    },
+    {
+      club_name: "Literary Club",
+      head: "Abhay Kumar Singh",
+      post: "Head",
+      img: literary,
+      club_insta: "",
+      head_insta: "",
+      head_lin: "",
     },
   ];
   return (

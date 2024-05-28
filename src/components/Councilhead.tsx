@@ -3,29 +3,30 @@ export default function CounciHeads() {
   return (
     <>
       <section className=" py-12 bg-[url(/bg4.jpg)] bg-cover">
-        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200">Our Secretaries</h1>
-        <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[445px]:grid-cols-1 justify-center w-[80%] mx-auto pl-20">
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100   ">
+        <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200">Our Secretaries</h1>
+        <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[469px]:grid-cols-1 justify-center w-[80%] mx-auto  ">
+          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]  ">
             <img
               src="/President.jpg"
               alt="Prseident Student`s Gymkhana"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square "
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl  text-blue-900 ">
                   SANKET PANIGRAHI
                 </h2>
-                <p className="px-5 text-xs sm:text-base dark:text-gray-400">
+                <p className="px-2 text-xs sm:text-base dark:text-gray-400">
                   PRESIDENT <br/> STUDENT`S GYMKHANA
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/sanket-panigrahi-59011625b/"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md"
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,14 +42,15 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="president.sg@iiti.ac.in"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 24 24"
+                    viewBox="0 0 25 25"
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className="w-6 h-6"
@@ -63,27 +65,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100  ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
             <img
               src="GS Cult.jpg"
               alt="GS Cultural Affairs"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   SHIVANSH MALPANI
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> CULTURAL AFFAIRS
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/shivansh-malpani-5a8374291/"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -99,9 +102,10 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.culturals@iiti.ac.in"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -121,27 +125,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
             <img
               src="/GS Acad Ug.png"
               alt="GS Academics UG"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   B RITHVIK
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> ACADEMIC AFFAIRS UG
                 </p>
               </div>
-			  <div className="flex justify-center pt-2 space-x-4 align-center">
+			  <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/rithvik-balabhadra-41bb80272/"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +162,10 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.acad.ug@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -179,27 +185,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex  bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
             <img
               src="/Gs Hostel.jpg"
               alt="GS Hostel Affairs"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
-              <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+              <div className="my-3 space-y-4">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   SAURAV SHARMA
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> HOSTEL AFFAIRS
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/saurav-sharma-028b18228/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -214,9 +221,10 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.hostel@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -236,27 +244,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS MAC.jpg"
               alt="GS MAC"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   GAURAV RAJPUT
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> MESS, CAFETARIA AND ALLIED SERVICES
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/gaurav-rajput-0584691b0/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -271,9 +280,10 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.dining@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -293,27 +303,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%] ">
             <img
               src="/GS SnT.JPG"
               alt="GS Science and Technology"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
-              <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+              <div className="my-4 space-y-5">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   SHIVAM SUNDRAM
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> SCIENCE AND TECHNOLGY
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/shivam-sundram-864988251/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -328,9 +339,10 @@ export default function CounciHeads() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.scitech@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -350,27 +362,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS Acad Pg.jpg"
               alt="GS Academics PG"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   ADI RAJ
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
-                  GENERAL SECRETARY <br/> ACADEMIC AFFAIRS PG/PHD
+                  GENERAL SECRETARY <br/> ACADEMIC AFFAIRS PG
                 </p>
               </div>
-			  <div className="flex justify-center pt-2 space-x-4 align-center">
+			  <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/adi-raj-410290292/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -386,9 +399,10 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.acad.pg@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -408,27 +422,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS COA.jpg"
               alt="GS COA"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
                   K NIKETH REDDY
                 </h2>
-                <p className="px-5 text-xs sm:text-base dark:text-gray-400">
+                <p className="px-2 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> CONSULTING, OUTREACH AND ALUMNI
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/kodudula-niketh-reddy-42948b259/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -444,9 +459,10 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.coa@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -466,27 +482,28 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
-          <div className="flex bg-white flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 ">
+          <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 justify-self-center max-[469px]:w-[80%]">
             <img
               src="/GS Sports.jpg"
               alt=" GS Sports Affairs"
-              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+              className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
-              <div className="my-2 space-y-1">
-                <h2 className="text-xl font-semibold sm:text-2xl">
-                  NIKHLIL ESWARAN
+              <div className="my-4 space-y-4">
+                <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
+                  NIKHIL ESWARAN
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> SPORTS AFFAIRS
                 </p>
               </div>
-              <div className="flex justify-center pt-2 space-x-4 align-center">
+              <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/in/nikhil-eswaran-272429266/"
+                  target="_blank"
                   aria-label="Linkedin"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -502,9 +519,10 @@ export default function CounciHeads() {
 
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="gs.sports@iiti.ac.in"
+                  target="_blank"
                   aria-label="Email"
-                  className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
+                  className="p-2 rounded-md 0"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

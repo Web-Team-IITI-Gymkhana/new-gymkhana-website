@@ -15,6 +15,13 @@ import ebsb from "../../../../public/assests/cult_clubs/ebsb.png";
 import gaming from "../../../../public/assests/cult_clubs/gaming.png";
 import kalakriti from "../../../../public/assests/cult_clubs/kalakriti.png";
 import vlr from "../../../../public/assests/cult_clubs/vlr.png";
+import Debsoc from "../../../../public/assests/cult_clubs/Debsoc.jpg";
+import mystichues from "../../../../public/assests/cult_clubs/Mystichues_logo.png";
+import music from "../../../../public/assests/cult_clubs/Music.jpg";
+import prakriti from "../../../../public/assests/cult_clubs/Prakriti.jpg";
+import quiz from "../../../../public/assests/cult_clubs/quiz.jpg";
+import srijan from "../../../../public/assests/cult_clubs/Srijan.jpg";
+import literary from "../../../../public/assests/cult_clubs/literary.jpg";
 
 import HeadsPage from "../../cult/clubHeads/page";
 
@@ -30,11 +37,6 @@ export default function Hero() {
     },
     {
       "website": "",
-      "title": "D' Alpha Crewz",
-      "imageSrc": alphad
-    },
-    {
-      "website": "",
       "title": "Avana Club",
       "imageSrc": avana
     },
@@ -43,6 +45,17 @@ export default function Hero() {
       "title": "Cinephiles",
       "imageSrc": cinephiles
     },
+    {
+      "website": "",
+      "title": "D' Alpha Crewz",
+      "imageSrc": alphad
+    },
+    {
+      "website": "",
+      "title": "The Debating Society",
+      "imageSrc": Debsoc
+    },
+    
     {
       "website": "",
       "title": "EBSB Club",
@@ -57,6 +70,36 @@ export default function Hero() {
       "website": "",
       "title": "Kalakriti Club",
       "imageSrc": kalakriti
+    },
+    {
+      "website": "",
+      "title": "Literary Club",
+      "imageSrc": literary
+    },
+    {
+      "website": "",
+      "title": "Mystic Hues",
+      "imageSrc": mystichues
+    },
+    {
+      "website": "",
+      "title": "Music Club",
+      "imageSrc": music 
+    },
+    {
+      "website": "",
+      "title": "Prakriti",
+      "imageSrc": prakriti 
+    },
+    {
+      "website": "",
+      "title": "The Quiz Club",
+      "imageSrc": quiz 
+    },
+    {
+      "website": "",
+      "title": "Srijan",
+      "imageSrc": srijan 
     },
     {
       "website": "",
