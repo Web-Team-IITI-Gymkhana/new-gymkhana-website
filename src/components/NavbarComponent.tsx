@@ -8,11 +8,12 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "@nextui-org/react";
-import MenuIcon from "@mui/icons-material/Menu";
+
 
 function NavbarComponent() {
+  // 0a0d06 
   return (
-    <div className=" bg-black items-center py-4 sticky z-20 top-0 w-full">
+    <div className=" items-center bg-gradient-to-r from-black via-[#0a0d06] to-black  py-4 sticky z-20 top-0 w-full">
       <span className=" flex flex-row lg:w-[50%] mx-auto justify-center ">
         <Link href="/">
           <Button className="text-2xl  max-sm:text-lg  text-white font-semibold bg-opacity-0 px-6 max-sm:px-4">HOME</Button>
