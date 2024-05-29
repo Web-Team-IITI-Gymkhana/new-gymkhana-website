@@ -5,36 +5,29 @@ import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
 import heroImage from "../../../../public/assests/clubHeads/hero.png";
-// import clubArr from "./clubData";
 import Header from "./header";
 import testImg from "../../../../public/assests/clubHeads/img.png";
 import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_black.webp";
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
-import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
-
 import cae from "../../../../public/assests/clubHeads/photos/CAE.jpg";
 import dhruv from "../../../../public/assests/clubHeads/photos/dhruv.png";
 import cfa_fin from "../../../../public/assests/clubHeads/photos/cfafin.jpg";
 import cfa_overall from "../../../../public/assests/clubHeads/photos/CFA(Overall and Analytics Head).jpg";
 import concreate from "../../../../public/assests/clubHeads/photos/Concreate.jpg";
-// import electr from "../../../../public/assests/clubHeads/photos/";
 import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.jpg";
 import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpg";
 import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpg";
-// import meta from "../../../../public/assests/clubHeads/photos/";
-import pclub_cp from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
-import pclub_dev from "../../../../public/assests/clubHeads/photos/PClub(software dev).jpg";
 import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpg";
-// import quantum from "../../../../public/assests/clubHeads/photos/";
 import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
 import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
-// import snt from "../../../../public/assests/clubHeads/photos/";
 import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.png";
 import aero from "../../../../public/assests/clubHeads/photos/mrunal.jpeg";
 import Ayush from "../../../../public/assests/clubHeads/photos/Ayush.png";
+import Naren from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
+import Quantum from "../../../../public/assests/clubHeads/photos/Quantum.jpg";
 
 
-// import test, { before } from "node:test";
+
 
 export default function Hero() {
   const clubArr = [
@@ -153,7 +146,7 @@ export default function Hero() {
       club_name: "Pclub(CP division)",
       head: "Naren Sai",
       post: "Head",
-      img: testImg,
+      img: Naren,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
@@ -170,8 +163,8 @@ export default function Hero() {
     {
       club_name: "Quantum Computing",
       head: "Mansi Singh",
-      img: testImg,
-     
+      img: Quantum,
+      post:"Head",
       club_insta: "https://www.instagram.com/quantum_computing_iiti/",
       club_lin: "https://www.linkedin.com/company/quantumcomputingiiti/",
       website: "",

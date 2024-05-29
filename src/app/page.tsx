@@ -6,9 +6,8 @@ import "./globals.css";
 import Council from "./council/council";
 import CouncilHead from "../components/Councilhead";
 import About from "@/components/about";
-import Events from "@/components/events";
-
 import ClubsHomePage from "@/components/ClubsHomePage";
+
 export default function Home() {
  
   function LearnMore() {
@@ -16,7 +15,8 @@ export default function Home() {
   }
   return (
     <>
-    <div className=" w-full top-0 h-[50rem] bg-[url('/Hero.jpg')] -z-10 bg-cover bg-center">
+    
+    <div className=" w-full top-0 h-[92.4vh] bg-[url('/Hero.jpg')] -z-10 bg-cover bg-center">
       <Image
         className="absolute top-12 left-6 z-20 invisible lg:visible bg-contain"
         src="/main_logo.png"
@@ -49,7 +49,9 @@ export default function Home() {
       <Council />
       <CouncilHead />
       <About/>
+      
      <ClubsHomePage />
+     
       {/* <Events/> */}
       
       
