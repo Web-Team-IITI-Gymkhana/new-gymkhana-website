@@ -214,10 +214,10 @@ export default function Hero() {
                       </span>
                     </h4>
                     <div>
-                      <h3 className="my-0.5 lg:text-md text-sm md:text-md lg:font-small text-center text-gray-800 dark:text-white underline underline-offset-0.5">
+                      <h3 className="my-0.5 lg:text-md text-sm md:text-md lg:font-small text-center text-gray-800 underline underline-offset-0.5">
                         {item.post}
                       </h3>
-                      <h2 className={`my-0.5 lg:text-md md:text-md lg:font-small text-center ${item.club_name.length>18?'sm:text-sm text-xs px-5  ':'text-sm'} text-gray-800 dark:text-white`}>
+                      <h2 className={`my-0.5 lg:text-md md:text-md lg:font-small text-center ${item.club_name.length>18?'sm:text-sm text-xs px-5  ':'text-sm'} text-gray-800`}>
                         {item.club_name}
                       </h2>
                     </div>

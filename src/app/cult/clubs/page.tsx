@@ -260,7 +260,7 @@ export default function Hero() {
                   >
                     <h5 
                     // className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white"
-                    className="mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white"
+                    className="mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900"
                     >
                       {item.title}
                     </h5>
