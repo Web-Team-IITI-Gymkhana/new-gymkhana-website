@@ -111,10 +111,10 @@ function Page() {
     <main className="px-6 sm:px-24 ">
       <p className="text-4xl font-bold">FAQs:</p>
       <section>
-        {questions.map((item) => {
+        {questions.map((item, ind) => {
           return (
             <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
+              <AccordionItem value="item-1" key={ind}>
                 <AccordionTrigger className="text-xl font-semibold">{item.question}</AccordionTrigger>
                 <AccordionContent className="text-lg">{item.answer}</AccordionContent>
               </AccordionItem>
