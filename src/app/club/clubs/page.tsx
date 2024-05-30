@@ -114,7 +114,7 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
+        className="overflow-x-hidden mt-[-10vh] relative h-[100vh]  "
       >
         <Image
           src={heroImage}
@@ -133,11 +133,10 @@ export default function Hero() {
         >
           <Header item={"Student Gymkhana"} />
           <Image
-          className="relative right-0 top-[-32vh] z-100 invisible xl:visible"
+          className="relative right-0 top-[-32vh] z-100 invisible xl:visible bg-contain"
           src="/blue_dots.svg"
           width={400}
           height={400}
-          objectFit="contain"
           alt="Random plus"
         />
         </motion.div>
@@ -145,7 +144,7 @@ export default function Hero() {
 
       <div
         id="main-container"
-        className="bg-gradient-to-r pb-[2vh] from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%"
+        className="bg-gradient-to-r pb-[2vh] max-sm:pb-6 from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90% "
         //absolute bg-[radial-gradient(#65d3d4_1.4px,#cef7ff_1.2px)] [background-size:36px_36px] -- OLD BG
       >
         <ScrollReveal>
@@ -177,7 +176,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[-3vh]
+              lg:my-[3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 
@@ -233,7 +232,7 @@ export default function Hero() {
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
-                    className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
+                    className="img-cont lg:w-52 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-12 lg:mt-4 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
                     // className="img-cont xs:w-9 lg:w-40 lg:h-40 sm:w-60 sm:h-60 md:w-45 md:h-45 md:flex-auto md:space-x-9 sm:flex-1 flex items-center justify-center lg:mb-5 sm:m-4 md:m-2 cursor-pointer hover:shadow-xl "
                       // newwwww
 
@@ -241,12 +240,12 @@ export default function Hero() {
                   >
                     <Image
                       // className="lg:w-[20vw] sm:w-[18vw] xxs:[10vw] sm:mt-3 lg:mt-2 md:border-b-5 sm:pb-5 md:pb-0 border-sky-600 "
-                      className=" lg:w-[100%] lg:h-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] xxs:w-[70%] xxs:h-[70%] md:mt-5 md:h-[90%] sm:mt-3 xxs:mt-10 border-sky-600"
+                      className=" lg:w-[100%] lg:h-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] xxs:w-[70%] xxs:h-[70%] md:mt-5 md:h-[90%] lg:mt-4 sm:mt-3 xxs:mt-16 border-sky-600"
                       // newwwww
                       src={item.imageSrc.src}
                       alt={item.title}
-                      width={134}
-                      height={134}
+                      width={200}
+                      height={200}
                       unoptimized // "unoptimized" -- very CRUCIAL
                     />
                     
@@ -258,14 +257,14 @@ export default function Hero() {
                   >
                     <h5 
                     // className="xs:mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 dark:text-white"
-                    className="mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900"
+                    className="mb-1 lg:text-xl xxs:text-sm md:text-md lg:font-medium text-center text-gray-900 max-sm:mt-5"
                     >
                       {item.title}
                     </h5>
                   </div>
                   <div 
                   // className="w-50 h-12 sm:mb-10 xxs:mb-20 sm:mt-1 xxs:mt-5 flex items-center justify-center cursor-pointer"
-                  className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer border-b-5 border-blue-500 "
+                  className="w-60 h-16 mb-6 mt-1 flex items-center justify-center cursor-pointer xl:border-b-4 border-blue-500 "
                   >
                     <motion.button
                       // className="sm:px-2 sm:py-1  sm:text-sm md:text-md md:px-4 md:py-2  scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 
