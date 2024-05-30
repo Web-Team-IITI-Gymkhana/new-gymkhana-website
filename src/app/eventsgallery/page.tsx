@@ -54,7 +54,7 @@ export default function ImageGallery() {
 
       {
         name: "E-Summit 23",
-        src: "/assests/esummit/e1.jpg",
+        src: "/assests/esummit/e1.1.jpg",
         alt: "ESummit",
         gallery: [ 
           "/assests/esummit/e1.jpg",
@@ -69,6 +69,7 @@ export default function ImageGallery() {
           "/assests/esummit/e10.jpg",
           "/assests/esummit/e11.jpg",
           "/assests/esummit/e12.jpg",
+          "/assests/esummit/e13.jpg",
 
           
         ],

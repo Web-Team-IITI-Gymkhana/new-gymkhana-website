@@ -40,7 +40,7 @@ export default function HorizontalCard() {
             industry readiness.
           </Typography>
           <a href="/club/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600" placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600 hover:bg-gray-100" placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function HorizontalCard() {
             campus life and personal growth.
           </Typography>
           <a href="/cult/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600"  placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600 hover:bg-gray-100"  placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +132,7 @@ export default function HorizontalCard() {
             enhancing their physical health and sportsmanship.
           </Typography>
           <a href="/sports/clubs" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600" placeholder={''}>
+            <Button variant="text" className="flex items-center gap-2 text-lg text-red-600 hover:bg-gray-100" placeholder={''}>
               See More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
