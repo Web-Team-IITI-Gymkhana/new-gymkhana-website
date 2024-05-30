@@ -135,11 +135,11 @@ export default function Hero() {
         >
           <Header item={"Student Gymkhana"} />
           <Image
-          className="relative right-0 top-[-32vh] z-100 invisible xl:visible"
+          className="relative right-0 top-[-32vh] z-100 invisible xl:visible bg-contain"
           src="/blue_dots.svg"
           width={400}
           height={400}
-          objectFit="contain"
+        
           alt="Random plus"
         />
         </motion.div>
@@ -179,7 +179,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[-3vh]
+              lg:my-[3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 
@@ -235,7 +235,7 @@ export default function Hero() {
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
-                    className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
+                    className="img-cont lg:w-52 lg:h-52 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
                     // className="img-cont xs:w-9 lg:w-40 lg:h-40 sm:w-60 sm:h-60 md:w-45 md:h-45 md:flex-auto md:space-x-9 sm:flex-1 flex items-center justify-center lg:mb-5 sm:m-4 md:m-2 cursor-pointer hover:shadow-xl "
                       // newwwww
 
@@ -247,8 +247,8 @@ export default function Hero() {
                       // newwwww
                       src={item.imageSrc.src}
                       alt={item.title}
-                      width={134}
-                      height={134}
+                      width={200}
+                      height={200}
                       unoptimized // "unoptimized" -- very CRUCIAL
                     />
                     
@@ -267,7 +267,7 @@ export default function Hero() {
                   </div>
                   <div 
                   // className="w-50 h-12 sm:mb-10 xxs:mb-20 sm:mt-1 xxs:mt-5 flex items-center justify-center cursor-pointer"
-                  className="w-50 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer border-b-5 border-blue-500 "
+                  className="w-52 h-12 mb-10 mt-1 flex items-center justify-center cursor-pointer xl:border-b-4 border-blue-500 "
                   >
                     <motion.button
                       // className="sm:px-2 sm:py-1  sm:text-sm md:text-md md:px-4 md:py-2  scale-1.1 xs:text-sm font-medium text-center text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-r hover:to-purple-600 

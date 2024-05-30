@@ -170,7 +170,7 @@ export default function Hero() {
               md:w-[35vh] md:h-[40vw] 
               lg:w-[50vh] lg:h-[30vw] 
               lg:mx-[0vh]
-              lg:my-[-3vh]
+              lg:my-[3vh]
               md:mx-[2vw]
               md:my-[1vw]
               z-10 bg-transparent border-black pt-20 
@@ -196,14 +196,14 @@ export default function Hero() {
                 >
                   <motion.div
                     whileTap={{ scale: 0.9, filter: "brightness(0.85)" }}
-                    className="img-cont lg:w-40 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40 "
+                    className="img-cont lg:w-60 lg:h-60 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-5 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40 "
                   >
                     <Image
-                      className=" lg:w-[20vw] sm:w-[20vw] xxs:h-[25vw] sm:mt-3 lg:mt-2 sm:pb-5 md:pb-0 border-2 border-indigo-500 md:mt-5 md:h-[90%] shadow-2xl"
+                      className=" lg:w-[25vw] sm:w-[20vw] xxs:h-[30vw] sm:mt-3 lg:mt-2 sm:pb-5 md:pb-0 border-2 border-indigo-500 md:mt-5 md:h-[90%] shadow-2xl"
                       src={item.img.src}
                       alt={item.head}
-                      width={134}
-                      height={134}
+                      width={200}
+                      height={200}
                       unoptimized // "unoptimized" -- very CRUCIAL
                     />
                   </motion.div>
