@@ -18,7 +18,7 @@ function Footer() {
             />
           </div>
           <div className="text-2xl sm:text-3xl font-extrabold w-fit ">
-            Student's Gymkhana
+            {`Student's Gymkhana`}
           </div>
         </div>
         <div className="flex max-sm:flex-col flex-row xl:h-24 max-sm:items-center">

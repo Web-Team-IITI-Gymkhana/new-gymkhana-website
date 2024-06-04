@@ -28,7 +28,7 @@ export default function Home() {
       <div className="flex flex-col bg-opacity-0  xl:px-48 xl:py-40 px-16 py-28 justify-center max-[453px]:items-cemter w-full h-full">
         <span className="w-[80%] mx-auto">
           <p className="lg:inline text-7xl 2xl:text-8xl min-[1800px]:text-9xl font-extrabold text-amber-400 max-sm:text-5xl">
-            Student's
+            {`Student's`}
           </p>
           <p className="lg:inline text-7xl 2xl:text-8xl min-[1800px]:text-9xl lg:ml-6 font-extrabold text-white max-sm:text-5xl max-sm:ml-0">
             Gymkhana
