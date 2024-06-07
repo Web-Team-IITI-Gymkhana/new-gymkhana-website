@@ -1,14 +1,18 @@
 "use client";
+import Image from 'next/image'
 export default function CounciHeads() {
   return (
     <>
       <section className=" py-12 bg-[url(/bg4.jpg)] bg-cover">
         <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200">Our Secretaries</h1>
         <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[469px]:grid-cols-1 justify-center w-[80%] mx-auto  ">
+          {/* President  */}
           <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]  ">
-            <img
+            <Image
               src="/President.jpg"
               alt="Prseident Student`s Gymkhana"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -65,10 +69,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs Culturals  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
-            <img
-              src="GS Cult.jpg"
+            <Image
+              src="/GS Cult.jpg"
               alt="GS Cultural Affairs"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -125,10 +132,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs Acad Ug  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
-            <img
+            <Image
               src="/GS Acad Ug.png"
               alt="GS Academics UG"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -185,10 +195,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs Hostel  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
-            <img
-              src="/Gs Hostel.jpg"
+            <Image
+              src="/GS Hostel.jpg"
               alt="GS Hostel Affairs"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -244,10 +257,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs MAC  */}
           <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
-            <img
+            <Image
               src="/GS MAC.jpg"
               alt="GS MAC"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -303,10 +319,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+           {/* Gs SnT  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] ">
-            <img
-              src="/GS SnT.JPG"
+            <Image
+              src="/GS SnT.jpg"
               alt="GS Science and Technology"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -362,10 +381,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs Acad Pg  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
-            <img
+            <Image
               src="/GS Acad Pg.jpg"
               alt="GS Academics PG"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -422,10 +444,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs COA  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
-            <img
+            <Image
               src="/GS COA.jpg"
               alt="GS COA"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">
@@ -482,10 +507,13 @@ export default function CounciHeads() {
               </div>
             </div>
           </div>
+          {/* Gs sports  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
-            <img
+            <Image
               src="/GS Sports.jpg"
               alt=" GS Sports Affairs"
+              width={100}
+              height={100}
               className="w-44 h-44 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-blue-800"
             />
             <div className="space-y-4 text-center divide-y divide-gray-700">

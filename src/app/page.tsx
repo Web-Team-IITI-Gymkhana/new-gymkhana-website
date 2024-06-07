@@ -2,11 +2,22 @@
 
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import "./globals.css";
 import Council from "./council/council";
-import CouncilHead from "../components/Councilhead";
+const CouncilHead = dynamic(() => import('../components/Councilhead'),{
+  ssr :false,
+  loading :()=> <p className="text-center text-2xl font-bold">Loading...</p>
+
+})
+const ClubsHomePage = dynamic(() => import("@/components/ClubsHomePage"),{
+  ssr :false,
+  loading :()=> <p className="text-center text-2xl font-bold">Loading...</p>
+
+})
+
 import About from "@/components/about";
-import ClubsHomePage from "@/components/ClubsHomePage";
+
 
 export default function Home() {
  
@@ -52,7 +63,7 @@ export default function Home() {
       
      <ClubsHomePage />
      
-      {/* <Events/> */}
+
       
       
       
