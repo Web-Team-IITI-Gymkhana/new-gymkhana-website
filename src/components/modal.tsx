@@ -87,9 +87,11 @@ const ModalComponent: React.FC<ModalProps> = ({
                 </IconButton>
               )}
             >
-              <img
+              <Image
                 src={event.gallery[imageIndex]}
                 alt={event.name}
+                width={1000}
+                height={1000}
                 className=" mx-auto  h-full object-contain"
               />
             </Carousel>

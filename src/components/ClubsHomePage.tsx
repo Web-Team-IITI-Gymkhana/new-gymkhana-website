@@ -5,6 +5,7 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import Image from 'next/image';
 
 
 export default function HorizontalCard() {
@@ -20,10 +21,11 @@ export default function HorizontalCard() {
           floated={false}
           className="m-0 w-2/5 max-lg:w-full shrink-0 rounded-r-none"
         >
-          <img
+          <Image
             src="/technicalclubs.png"
             width={100}
             height={100}
+            unoptimized
             alt="card-image"
             className="h-full w-full object-cover"
           />
@@ -67,11 +69,12 @@ export default function HorizontalCard() {
           floated={false}
           className="m-0 w-2/5  max-lg:w-full shrink-0 rounded-r-none"
         >
-          <img
+          <Image
             src="/culturalclubs.png"
             alt="card-image"
             width={100}
             height={100}
+            unoptimized
             className="h-full w-full object-cover"
           />
         </CardHeader>
@@ -113,11 +116,12 @@ export default function HorizontalCard() {
           floated={false}
           className="m-0 w-2/5  max-lg:w-full shrink-0 rounded-r-none"
         >
-          <img
-            src="/sportsclubs.jpg"
+          <Image
+            src="/sportsclubs.JPG"
             alt="card-image"
             width={100}
             height={100}
+            unoptimized
             className="h-full w-full object-cover"
           />
         </CardHeader>

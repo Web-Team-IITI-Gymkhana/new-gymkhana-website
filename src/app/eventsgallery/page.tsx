@@ -1,7 +1,12 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import ModalComponent from "../../components/modal";
+import dynamic from "next/dynamic";
+const ModalComponent = dynamic(() => import("../../components/modal"),{
+  ssr :false,
+  loading :()=> <p className="text-center text-2xl font-bold">Loading...</p>
+
+})
 
 interface EventObject {
   name: string;
@@ -54,21 +59,21 @@ export default function ImageGallery() {
 
       {
         name: "E-Summit 23",
-        src: "/assests/esummit/e1.1.jpg",
+        src: "/assests/esummit/e1.1.JPG",
         alt: "ESummit",
         gallery: [ 
-          "/assests/esummit/e1.jpg",
-          "/assests/esummit/e2.jpg",
-          "/assests/esummit/e3.jpg",
-          "/assests/esummit/e4.jpg",
-          "/assests/esummit/e5.jpg",
-          "/assests/esummit/e6.jpg",
-          "/assests/esummit/e7.jpg",
-          "/assests/esummit/e8.jpg",
-          "/assests/esummit/e9.jpg",
-          "/assests/esummit/e10.jpg",
-          "/assests/esummit/e11.jpg",
-          "/assests/esummit/e12.jpg",
+          "/assests/esummit/e1.JPG",
+          "/assests/esummit/e2.JPG",
+          "/assests/esummit/e3.JPG",
+          "/assests/esummit/e4.JPG",
+          "/assests/esummit/e5.JPG",
+          "/assests/esummit/e6.JPG",
+          "/assests/esummit/e7.JPG",
+          "/assests/esummit/e8.JPG",
+          "/assests/esummit/e9.JPG",
+          "/assests/esummit/e10.JPG",
+          "/assests/esummit/e11.JPG",
+          "/assests/esummit/e12.JPG",
           "/assests/esummit/e13.jpg",
 
           
@@ -81,14 +86,14 @@ export default function ImageGallery() {
         gallery: [ // Array of Fluxus event images
           "/assests/mun/mun1.jpg",
           "/assests/mun/mun2.jpg",
-          "/assests/mun/mun 2.jpg",
+          "/assests/mun/mun 2.JPG",
           "/assests/mun/mun3.jpg",
-          "/assests/mun/mun 3.jpg",
+          "/assests/mun/mun 3.JPG",
           "/assests/mun/mun4.jpg",
           "/assests/mun/mun5.jpg",
           "/assests/mun/mun6.jpg",
           "/assests/mun/mun7.jpg",
-          "/assests/mun/mun8.jpg",
+          "/assests/mun/mun8.JPG",
         
           // Add more Fluxus event images here...
         ],
@@ -98,7 +103,7 @@ export default function ImageGallery() {
         src: "/assests/independence/i 9.jpg",
         alt: "TVSM Event",
         gallery: [ // Array of Fluxus event images
-          "/assests/independence/i 13.jpg",
+          "/assests/independence/i 13.JPG",
           "/assests/independence/i 1.jpg",
           "/assests/independence/i 2.jpg",
           "/assests/independence/i 3.jpg",
@@ -137,19 +142,19 @@ export default function ImageGallery() {
 
       {
         name: "Lakshya",
-        src: "/assests/lakshya/lakshya 8.jpg",
+        src: "/assests/lakshya/lakshya 8.JPG",
         alt: "Lakshya Event",
         gallery: [ // Array of Fluxus event images
-          "/assests/lakshya/lakshya 1.jpg",
-          "/assests/lakshya/lakshya 2.jpg",
-          "/assests/lakshya/lakshya 3.jpg",
-          "/assests/lakshya/lakshya 4.jpg",
-          "/assests/lakshya/lakshya 5.jpg",
-          "/assests/lakshya/lakshya 6.jpg",
-          "/assests/lakshya/lakshya 7.jpg",
-          "/assests/lakshya/lakshya 8.jpg",
-          "/assests/lakshya/lakshya 9.jpg",
-          "/assests/lakshya/lakshya 10.jpg",
+          "/assests/lakshya/lakshya 1.JPG",
+          "/assests/lakshya/lakshya 2.JPG",
+          "/assests/lakshya/lakshya 3.JPG",
+          "/assests/lakshya/lakshya 4.JPG",
+          "/assests/lakshya/lakshya 5.JPG",
+          "/assests/lakshya/lakshya 6.JPG",
+          "/assests/lakshya/lakshya 7.JPG",
+          "/assests/lakshya/lakshya 8.JPG",
+          "/assests/lakshya/lakshya 9.JPG",
+          "/assests/lakshya/lakshya 10.JPG",
       
           // Add more Fluxus event images here...
         ],
@@ -166,10 +171,10 @@ export default function ImageGallery() {
           "/assests/tedx/t 2.jpg",
           "/assests/tedx/t 3.jpg",
           "/assests/tedx/t 4.jpg",
-          "/assests/tedx/t 5.jpg",
-          "/assests/tedx/t 6.jpg",
-          "/assests/tedx/t 7.jpg",
-          "/assests/tedx/t 8.jpg",
+          "/assests/tedx/t 5.JPG",
+          "/assests/tedx/t 6.JPG",
+          "/assests/tedx/t 7.JPG",
+          "/assests/tedx/t 8.JPG",
           
         
           
@@ -206,15 +211,15 @@ export default function ImageGallery() {
       
       {
         name: "Fireside Chat with Dr K. SIVAN",
-        src: "/assests/fireside chat/fc2.jpg",
+        src: "/assests/fireside chat/fc2.JPG",
         alt: "IBCC",
         gallery: [ // Array of Fluxus event images
-          "/assests/fireside chat/fc1.jpg",
-          "/assests/fireside chat/fc2.jpg",
-          "/assests/fireside chat/fc3.jpg",
-          "/assests/fireside chat/fc4.jpg",
-          "/assests/fireside chat/fc5.jpg",
-          "/assests/fireside chat/fc6.jpg",
+          "/assests/fireside chat/fc1.JPG",
+          "/assests/fireside chat/fc2.JPG",
+          "/assests/fireside chat/fc3.JPG",
+          "/assests/fireside chat/fc4.JPG",
+          "/assests/fireside chat/fc5.JPG",
+          "/assests/fireside chat/fc6.JPG",
           
           // Add more Fluxus event images here...
         ],
@@ -229,23 +234,23 @@ export default function ImageGallery() {
           "/assests/josh/josh3.jpg",
           "/assests/josh/josh4.jpg",
           "/assests/josh/josh5.jpg",
-          "/assests/josh/josh6.jpg",
-          "/assests/josh/josh7.jpg",
+          "/assests/josh/josh6.JPG",
+          "/assests/josh/josh7.JPG",
           
           // Add more Fluxus event images here...
         ],
       },
       {
         name: "Research and Industrial Conclave",
-        src: "/assests/ric/ric5.jpg",
+        src: "/assests/ric/ric5.JPG",
         alt:"RIC",
         gallery: [ // Array of Fluxus event images
-          "/assests/ric/ric1.jpg",
-          "/assests/ric/ric2.jpg",
-          "/assests/ric/ric3.jpg",
-          "/assests/ric/ric4.jpg",
-          "/assests/ric/ric5.jpg",
-          "/assests/ric/ric6.jpg",
+          "/assests/ric/ric1.JPG",
+          "/assests/ric/ric2.JPG",
+          "/assests/ric/ric3.JPG",
+          "/assests/ric/ric4.JPG",
+          "/assests/ric/ric5.JPG",
+          "/assests/ric/ric6.JPG",
         
         ],
       },
@@ -301,11 +306,10 @@ export default function ImageGallery() {
                 alt={event.alt}
                 width={820}
                 height={800}
-                priority
                 className="border-4 border-solid border-white hover:border-yellow-500 cursor-pointer"
                 onClick={() => handleEventClick(index)}
               />
-              <p className="text-center p-1 text-white text-lg sm:text-xl md:text-2xl lg:text-4xl     font-semibold">{event.name}</p>
+              <p className="text-center p-1 text-white text-lg sm:text-xl md:text-2xl lg:text-4xl font-semibold">{event.name}</p>
             </div>
           ))}
           {selectedEvent && (
