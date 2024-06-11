@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import Image from "next/image";
-import heroImage from "../../../../public/sportsclubs.jpg";
+// import heroImage from "../../../../public/sportsclubs.jpg";
 // import clubArr from "./clubData";
 import Header from "./header";
 import ath from "../../../../public/assests/sports/ath.png";
@@ -81,7 +81,7 @@ export default function Hero() {
         className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
       >
         <Image
-          src={heroImage}
+          src='/sportsclubs.JPG'
           alt="Hero Background"
           className="w-full h-auto absolute z-[-1] bg-blend-darken blur-sm scale-1.2 object-cover brightness-30"
           layout="fill"
